@@ -2,24 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Run : MonoBehaviour
+public class BackToWalk : MonoBehaviour
 {
     public MovePatternChange PatternChange;
-    
-    
 
     private void Update()
     {
-        while (Input.GetButtonDown("Run"))
+        while (Input.GetButtonDown("Run") == false)
         {
             GetComponent<MoveBase>().MovePattern = PatternChange.Transfer ();
-           break;
-            
+            break;
         }
+       
 
-        
-
-        
     }
-   
 }

@@ -55,15 +55,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnKeyEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/OnKeyEvent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UpdatePattern.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/UpdatePattern.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,14 +67,23 @@
       <file leaf-file-name="Run.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Run.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
-                <marker date="1548747224471" expanded="false" signature="6:78" ph="..." />
-                <marker date="1548747224471" expanded="true" signature="112:412" ph="{...}" />
-                <marker date="1548747224471" expanded="true" signature="228:410" ph="{...}" />
-                <marker date="1548747224471" expanded="true" signature="277:394" ph="{...}" />
+                <marker date="1548747798860" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548747798860" expanded="true" signature="112:405" ph="{...}" />
+                <marker date="1548747798860" expanded="true" signature="195:399" ph="{...}" />
+                <marker date="1548747798860" expanded="true" signature="244:373" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackToWalk.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/BackToWalk.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -104,6 +104,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Run.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DoubleJumpChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MovePatternChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BackToWalk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MovePattern.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -116,6 +117,7 @@
         <option value="$PROJECT_DIR$/Assets/OnKeyEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/DoubleJumpChange.cs" />
         <option value="$PROJECT_DIR$/Assets/UpdatePattern.cs" />
+        <option value="$PROJECT_DIR$/Assets/BackToWalk.cs" />
         <option value="$PROJECT_DIR$/Assets/Run.cs" />
       </list>
     </option>
@@ -129,7 +131,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="99" />
     <option name="y" value="237" />
     <option name="width" value="1490" />
@@ -193,12 +195,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548120965777</updated>
       <workItem from="1548120979411" duration="1672000" />
-      <workItem from="1548742664550" duration="3509000" />
+      <workItem from="1548742664550" duration="4084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5181000" />
+    <option name="totallyTimeSpent" value="5756000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -211,7 +213,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="99" y="237" width="1490" height="780" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -329,15 +330,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BackToWalk.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Run.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="195">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
-            <marker date="1548747224471" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548747224471" expanded="true" signature="112:412" ph="{...}" />
-            <marker date="1548747224471" expanded="true" signature="228:410" ph="{...}" />
-            <marker date="1548747224471" expanded="true" signature="277:394" ph="{...}" />
+            <marker date="1548747798860" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548747798860" expanded="true" signature="112:405" ph="{...}" />
+            <marker date="1548747798860" expanded="true" signature="195:399" ph="{...}" />
+            <marker date="1548747798860" expanded="true" signature="244:373" ph="{...}" />
           </folding>
         </state>
       </provider>
