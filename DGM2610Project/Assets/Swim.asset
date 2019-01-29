@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Swim
   m_EditorClassIdentifier: 
   jumpSpeed: {fileID: 11400000, guid: b892cf4c5c6c53247910419bacf8668b, type: 2}
-  gravity: {fileID: 11400000, guid: 60fa9cee0ba9aef42a675f0eabf37575, type: 2}
+  gravity: {fileID: 11400000, guid: 21d5f24ccf776344e90512dd1c7e2766, type: 2}
   MoveX: {fileID: 11400000, guid: 148f3d1e806afa74bb747274da8dc214, type: 2}
   MoveY: {fileID: 11400000, guid: 704cbb62bfff09d49a0b02b00e8d9723, type: 2}
   MoveZ: {fileID: 11400000, guid: 7b9f08211e2cc334b8467e2fe62523a7, type: 2}
