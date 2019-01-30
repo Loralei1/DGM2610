@@ -5,10 +5,13 @@ using UnityEngine.Events;
 
 public class OnTriggerExitEvent : MonoBehaviour
 {
-    public UnityEvent Event;
+    
+    public MovePatternChange PatternChange;
+
+    public GameObject other;
 
     private void OnTriggerExit(Collider other)
     {
-        Event.Invoke();
+        other.GetComponent<MoveBase>().MovePattern = PatternChange.Transfer (); 
     }
 }

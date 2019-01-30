@@ -10,10 +10,10 @@ public class Run : MonoBehaviour
 
     private void Update()
     {
-        while (Input.GetButtonDown("Run"))
+        if (Input.GetButtonDown("Run"))
         {
             GetComponent<MoveBase>().MovePattern = PatternChange.Transfer ();
-           break;
+           
             
         }
 
