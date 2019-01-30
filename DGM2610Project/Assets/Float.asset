@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 629e9f8f95fecbc4f9dd6d537af63a95, type: 3}
-  m_Name: Run
+  m_Name: Float
   m_EditorClassIdentifier: 
-  jumpSpeed: {fileID: 11400000, guid: c205f678d0d60c4499f1b36f43ba0bf6, type: 2}
-  gravity: {fileID: 11400000, guid: 593d49c8fc5dc314e8ac38364559728b, type: 2}
+  jumpSpeed: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
+  gravity: {fileID: 11400000, guid: 1369735f57cad024385a2f3d981b0a0a, type: 2}
   MoveX: {fileID: 11400000, guid: 474d5562c771eb340887a7b312b259af, type: 2}
-  MoveY: {fileID: 11400000, guid: 704cbb62bfff09d49a0b02b00e8d9723, type: 2}
-  MoveZ: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
-  RotX: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
+  MoveY: {fileID: 11400000, guid: 56d254d4800461042b3a0b6ed981839c, type: 2}
+  MoveZ: {fileID: 11400000, guid: 56d254d4800461042b3a0b6ed981839c, type: 2}
+  RotX: {fileID: 11400000, guid: 56d254d4800461042b3a0b6ed981839c, type: 2}
   RotY: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
-  RotZ: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
+  RotZ: {fileID: 11400000, guid: 7b9f08211e2cc334b8467e2fe62523a7, type: 2}

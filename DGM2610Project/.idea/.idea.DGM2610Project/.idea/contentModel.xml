@@ -137,8 +137,10 @@
           </e>
         </e>
         <e p="DoubleJumpChange.cs" t="Include" />
+        <e p="FloatChange.cs" t="Include" />
         <e p="FloatData.cs" t="Include" />
         <e p="FloatInput.cs" t="Include" />
+        <e p="KeyGrab.cs" t="Include" />
         <e p="MoveBase.cs" t="Include" />
         <e p="MovePattern.cs" t="Include" />
         <e p="MovePatternChange.cs" t="Include" />
@@ -271,6 +273,7 @@
           </e>
         </e>
         <e p="Run.cs" t="Include" />
+        <e p="StopRunning.cs" t="Include" />
         <e p="TransferTrigger.cs" t="Include" />
         <e p="UpdatePattern.cs" t="Include" />
       </e>

@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class StopRunning : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public MovePatternChange PatternChange;
+    
+    
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
+        if (Input.GetButtonDown("Run") == false)
+        {
+            GetComponent<MoveBase>().MovePattern = PatternChange.Transfer ();
+           
+            
+        }
+
+        
+
         
     }
 }

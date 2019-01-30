@@ -53,25 +53,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdatePattern.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/UpdatePattern.cs">
+      <file leaf-file-name="Run.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Run.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="60">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Run.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Run.cs">
+      <file leaf-file-name="StopRunning.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/StopRunning.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="330">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyGrab.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/KeyGrab.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <marker date="1548842631412" expanded="false" signature="6:78" ph="..." />
-                <marker date="1548842631412" expanded="true" signature="112:396" ph="{...}" />
-                <marker date="1548842631412" expanded="true" signature="195:390" ph="{...}" />
-                <marker date="1548842631412" expanded="true" signature="241:364" ph="{...}" />
+                <marker date="1548843617807" expanded="false" signature="6:97" ph="..." />
+                <marker date="1548843617807" expanded="true" signature="135:410" ph="{...}" />
+                <marker date="1548843617807" expanded="true" signature="249:408" ph="{...}" />
+                <marker date="1548843617807" expanded="true" signature="306:402" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -92,18 +101,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FloatInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TransferTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnKeyEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MoveBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StopRunning.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnTriggerExitEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UpdatePattern.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Run.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MovePattern.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UpdatePattern.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DoubleJumpChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MovePatternChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BackToWalk.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MovePattern.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/KeyGrab.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -117,6 +128,8 @@
         <option value="$PROJECT_DIR$/Assets/BackToWalk.cs" />
         <option value="$PROJECT_DIR$/Assets/OnTriggerExitEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Run.cs" />
+        <option value="$PROJECT_DIR$/Assets/StopRunning.cs" />
+        <option value="$PROJECT_DIR$/Assets/KeyGrab.cs" />
       </list>
     </option>
   </component>
@@ -194,12 +207,12 @@
       <updated>1548120965777</updated>
       <workItem from="1548120979411" duration="1672000" />
       <workItem from="1548742664550" duration="4084000" />
-      <workItem from="1548841541902" duration="849000" />
+      <workItem from="1548841541902" duration="1734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6605000" />
+    <option name="totallyTimeSpent" value="7490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,12 +306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <marker date="1548842631412" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548842631412" expanded="true" signature="112:396" ph="{...}" />
-            <marker date="1548842631412" expanded="true" signature="195:390" ph="{...}" />
-            <marker date="1548842631412" expanded="true" signature="241:364" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -386,13 +393,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Run.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="60">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StopRunning.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/KeyGrab.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <marker date="1548842631412" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548842631412" expanded="true" signature="112:396" ph="{...}" />
-            <marker date="1548842631412" expanded="true" signature="195:390" ph="{...}" />
-            <marker date="1548842631412" expanded="true" signature="241:364" ph="{...}" />
+            <marker date="1548843617807" expanded="false" signature="6:97" ph="..." />
+            <marker date="1548843617807" expanded="true" signature="135:410" ph="{...}" />
+            <marker date="1548843617807" expanded="true" signature="249:408" ph="{...}" />
+            <marker date="1548843617807" expanded="true" signature="306:402" ph="{...}" />
           </folding>
         </state>
       </provider>
