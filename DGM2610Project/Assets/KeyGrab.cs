@@ -7,6 +7,7 @@ public class KeyGrab : MonoBehaviour
 {
     public GameObject other;
     public bool CanFloat = false;
+    public MovePatternChange PatternChange;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,6 +15,11 @@ public class KeyGrab : MonoBehaviour
         {
             CanFloat = true;
             other.gameObject.SetActive(false);
+        }
+
+        if (other.gameObject.CompareTag("Trigger") && CanFloat)
+        {
+            GetComponent<MoveBase>().MovePattern = PatternChange.Transfer (); 
         }
     }
 }
