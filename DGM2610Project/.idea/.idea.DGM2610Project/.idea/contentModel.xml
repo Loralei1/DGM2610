@@ -137,6 +137,7 @@
           </e>
         </e>
         <e p="DoubleJumpChange.cs" t="Include" />
+        <e p="EnemyFollow.cs" t="Include" />
         <e p="FloatChange.cs" t="Include" />
         <e p="FloatData.cs" t="Include" />
         <e p="FloatInput.cs" t="Include" />
@@ -272,10 +273,12 @@
             </e>
           </e>
         </e>
+        <e p="ReverseTrapdoor.cs" t="Include" />
         <e p="Run.cs" t="Include" />
         <e p="StopRunning.cs" t="Include" />
         <e p="TransferTrigger.cs" t="Include" />
         <e p="Trapdoor.cs" t="Include" />
+        <e p="TrickStairs.cs" t="Include" />
         <e p="UpdatePattern.cs" t="Include" />
       </e>
       <e p="DGM2610Project.sln" t="IncludeFlat" />
