@@ -72,11 +72,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnemyFollow.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EnemyFollow.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="129" selection-start-line="14" selection-start-column="129" selection-end-line="14" selection-end-column="129" />
+            <state relative-caret-position="75">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding>
+                <marker date="1549488383081" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549488383081" expanded="true" signature="120:478" ph="{...}" />
+                <marker date="1549488383081" expanded="true" signature="204:476" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,16 +89,27 @@
       <file leaf-file-name="CountDown.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CountDown.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="77" />
+            <state relative-caret-position="167">
+              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+              <folding>
+                <marker date="1549486848007" expanded="false" signature="6:113" ph="..." />
+                <marker date="1549486848007" expanded="true" signature="153:841" ph="{...}" />
+                <marker date="1549486848007" expanded="true" signature="211:387" ph="{...}" />
+                <marker date="1549486848007" expanded="true" signature="282:381" ph="{...}" />
+                <marker date="1549486848007" expanded="true" signature="437:578" ph="{...}" />
+                <marker date="1549486848007" expanded="true" signature="499:561" ph="{...}" />
+                <marker date="1549486848007" expanded="true" signature="607:713" ph="{...}" />
+                <marker date="1549486848007" expanded="true" signature="644:702" ph="{...}" />
+                <marker date="1549486848007" expanded="true" signature="747:839" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeathVolume.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeathVolume.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/DeathVolume.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="120">
               <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
@@ -155,10 +171,10 @@
         <option value="$PROJECT_DIR$/Assets/Trapdoor.cs" />
         <option value="$PROJECT_DIR$/Assets/ReverseTrapdoor.cs" />
         <option value="$PROJECT_DIR$/Assets/TrickStairs.cs" />
-        <option value="$PROJECT_DIR$/Assets/EnemyFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/CountDown.cs" />
         <option value="$PROJECT_DIR$/Assets/CountDownDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/DeathVolume.cs" />
+        <option value="$PROJECT_DIR$/Assets/CountDown.cs" />
+        <option value="$PROJECT_DIR$/Assets/EnemyFollow.cs" />
       </list>
     </option>
   </component>
@@ -238,12 +254,12 @@
       <workItem from="1548742664550" duration="4084000" />
       <workItem from="1548841541902" duration="2495000" />
       <workItem from="1548873055082" duration="946000" />
-      <workItem from="1549478094106" duration="5537000" />
+      <workItem from="1549478094106" duration="6567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14734000" />
+    <option name="totallyTimeSpent" value="15764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -621,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="129" selection-start-line="14" selection-start-column="129" selection-end-line="14" selection-end-column="129" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CountDownDisplay.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -635,17 +644,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CountDown.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/DeathVolume.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="77" />
+        <state relative-caret-position="120">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DeathVolume.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/CountDown.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="167">
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding>
+            <marker date="1549486848007" expanded="false" signature="6:113" ph="..." />
+            <marker date="1549486848007" expanded="true" signature="153:841" ph="{...}" />
+            <marker date="1549486848007" expanded="true" signature="211:387" ph="{...}" />
+            <marker date="1549486848007" expanded="true" signature="282:381" ph="{...}" />
+            <marker date="1549486848007" expanded="true" signature="437:578" ph="{...}" />
+            <marker date="1549486848007" expanded="true" signature="499:561" ph="{...}" />
+            <marker date="1549486848007" expanded="true" signature="607:713" ph="{...}" />
+            <marker date="1549486848007" expanded="true" signature="644:702" ph="{...}" />
+            <marker date="1549486848007" expanded="true" signature="747:839" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <marker date="1549488383081" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549488383081" expanded="true" signature="120:478" ph="{...}" />
+            <marker date="1549488383081" expanded="true" signature="204:476" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -38,10 +38,13 @@ public class CountDown : MonoBehaviour
 
     {
 
-        if (other.gameObject.CompareTag("Streetlamp")) return;
+        if (other.gameObject.CompareTag("Streetlamp"))
+        {
+            time.value = time.value + 30;
+        };
 
 
-        time.value = time.value + 30;
+       
     }
 
     private void Update ()
