@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Walk
   m_EditorClassIdentifier: 
   jumpSpeed: {fileID: 11400000, guid: c205f678d0d60c4499f1b36f43ba0bf6, type: 2}
-  gravity: {fileID: 11400000, guid: 593d49c8fc5dc314e8ac38364559728b, type: 2}
-  MoveX: {fileID: 11400000, guid: 4e0fae595891fc64e88da50f0a2f9ae6, type: 2}
+  gravity: {fileID: 11400000, guid: 8ef90c5a97159024dbefa18c2b98b921, type: 2}
+  MoveX: {fileID: 11400000, guid: 474d5562c771eb340887a7b312b259af, type: 2}
   MoveY: {fileID: 11400000, guid: 704cbb62bfff09d49a0b02b00e8d9723, type: 2}
   MoveZ: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
   RotX: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}

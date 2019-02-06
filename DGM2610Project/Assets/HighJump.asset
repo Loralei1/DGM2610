@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 629e9f8f95fecbc4f9dd6d537af63a95, type: 3}
   m_Name: HighJump
   m_EditorClassIdentifier: 
-  jumpSpeed: {fileID: 11400000, guid: 591115242798f7f4c8845af0ff64582a, type: 2}
-  gravity: {fileID: 11400000, guid: 593d49c8fc5dc314e8ac38364559728b, type: 2}
+  jumpSpeed: {fileID: 11400000, guid: 21d5f24ccf776344e90512dd1c7e2766, type: 2}
+  gravity: {fileID: 11400000, guid: 8ef90c5a97159024dbefa18c2b98b921, type: 2}
   MoveX: {fileID: 11400000, guid: 474d5562c771eb340887a7b312b259af, type: 2}
   MoveY: {fileID: 11400000, guid: d7693cf9011eab3479a9642b6abb37e9, type: 2}
   MoveZ: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
