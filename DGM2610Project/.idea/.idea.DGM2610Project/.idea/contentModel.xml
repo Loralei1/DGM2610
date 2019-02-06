@@ -136,6 +136,9 @@
             </e>
           </e>
         </e>
+        <e p="CountDown.cs" t="Include" />
+        <e p="CountDownDisplay.cs" t="Include" />
+        <e p="DeathVolume.cs" t="Include" />
         <e p="DoubleJumpChange.cs" t="Include" />
         <e p="EnemyFollow.cs" t="Include" />
         <e p="FloatChange.cs" t="Include" />
