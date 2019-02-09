@@ -144,6 +144,7 @@
         <e p="FloatChange.cs" t="Include" />
         <e p="FloatData.cs" t="Include" />
         <e p="FloatInput.cs" t="Include" />
+        <e p="FlockFollow.cs" t="Include" />
         <e p="KeyGrab.cs" t="Include" />
         <e p="MoveBase.cs" t="Include" />
         <e p="MovePattern.cs" t="Include" />
