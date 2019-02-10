@@ -66,8 +66,8 @@
       <file leaf-file-name="EnemyFollow.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -75,12 +75,12 @@
       <file leaf-file-name="FlockFollow.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/FlockFollow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="210">
+              <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
               <folding>
-                <marker date="1549752618287" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549752618287" expanded="true" signature="120:561" ph="{...}" />
-                <marker date="1549752618287" expanded="true" signature="204:559" ph="{...}" />
+                <marker date="1549842761953" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549842761953" expanded="true" signature="120:774" ph="{...}" />
+                <marker date="1549842761953" expanded="true" signature="273:772" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -246,12 +246,12 @@
       <workItem from="1548841541902" duration="2495000" />
       <workItem from="1548873055082" duration="946000" />
       <workItem from="1549478094106" duration="7164000" />
-      <workItem from="1549751937074" duration="680000" />
+      <workItem from="1549751937074" duration="2914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17041000" />
+    <option name="totallyTimeSpent" value="19275000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,19 +627,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/FlockFollow.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="210">
+          <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
           <folding>
-            <marker date="1549752618287" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549752618287" expanded="true" signature="120:561" ph="{...}" />
-            <marker date="1549752618287" expanded="true" signature="204:559" ph="{...}" />
+            <marker date="1549842761953" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549842761953" expanded="true" signature="120:774" ph="{...}" />
+            <marker date="1549842761953" expanded="true" signature="273:772" ph="{...}" />
           </folding>
         </state>
       </provider>
