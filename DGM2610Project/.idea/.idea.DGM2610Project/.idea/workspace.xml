@@ -75,12 +75,12 @@
       <file leaf-file-name="FlockFollow.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/FlockFollow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+            <state relative-caret-position="255">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="12" />
               <folding>
-                <marker date="1549842761953" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549842761953" expanded="true" signature="120:774" ph="{...}" />
-                <marker date="1549842761953" expanded="true" signature="273:772" ph="{...}" />
+                <marker date="1549844044712" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549844044712" expanded="true" signature="120:787" ph="{...}" />
+                <marker date="1549844044712" expanded="true" signature="273:785" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -179,8 +179,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="202" />
-    <option name="y" value="150" />
+    <option name="x" value="175" />
+    <option name="y" value="161" />
     <option name="width" value="1490" />
     <option name="height" value="780" />
   </component>
@@ -246,12 +246,12 @@
       <workItem from="1548841541902" duration="2495000" />
       <workItem from="1548873055082" duration="946000" />
       <workItem from="1549478094106" duration="7164000" />
-      <workItem from="1549751937074" duration="2914000" />
+      <workItem from="1549751937074" duration="3682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19275000" />
+    <option name="totallyTimeSpent" value="20043000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,12 +634,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/FlockFollow.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+        <state relative-caret-position="255">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="12" />
           <folding>
-            <marker date="1549842761953" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549842761953" expanded="true" signature="120:774" ph="{...}" />
-            <marker date="1549842761953" expanded="true" signature="273:772" ph="{...}" />
+            <marker date="1549844044712" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549844044712" expanded="true" signature="120:787" ph="{...}" />
+            <marker date="1549844044712" expanded="true" signature="273:785" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -17,6 +17,7 @@ public class FlockFollow : MonoBehaviour
         transform.position = (transform.position - target.transform.position).normalized * distance + target.transform.position; 
         localPosition = localPosition.normalized;
         transform.Translate(localPosition.x * Time.deltaTime * speed, localPosition.y * Time.deltaTime * speed, localPosition.z);
+        
        
     }
 }
