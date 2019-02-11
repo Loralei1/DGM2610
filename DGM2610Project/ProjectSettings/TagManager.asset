@@ -8,6 +8,8 @@ TagManager:
   - Trigger
   - Streetlamp
   - Death
+  - Light
+  - ForceField
   layers:
   - Default
   - TransparentFX

@@ -5,13 +5,19 @@ using UnityEngine;
 public class EnemyFollow : MonoBehaviour
 {
 
-    public float speed;
+    public FloatData speed;
     public GameObject player;
 
-    private void Update()
+   
+
+    
+    
+    private void  Update()
     {
         Vector3 localPosition = player.transform.position - transform.position;
         localPosition = localPosition.normalized;
-        transform.Translate(localPosition.x * Time.deltaTime * speed, localPosition.y * Time.deltaTime * speed, localPosition.z);
+        transform.Translate(localPosition.x * Time.deltaTime * speed.value, localPosition.y * Time.deltaTime * speed.value, localPosition.z);
     }
+
+    
 }

@@ -146,12 +146,15 @@
         <e p="FloatInput.cs" t="Include" />
         <e p="FlockFollow.cs" t="Include" />
         <e p="KeyGrab.cs" t="Include" />
+        <e p="MakeActiveTimer.cs" t="Include" />
+        <e p="MakeInactiveTimer.cs" t="Include" />
         <e p="MoveBase.cs" t="Include" />
         <e p="MovePattern.cs" t="Include" />
         <e p="MovePatternChange.cs" t="Include" />
         <e p="MovePatternNotGrounded.cs" t="Include" />
         <e p="OnKeyEvent.cs" t="Include" />
         <e p="OnTriggerEnterEvent.cs" t="Include" />
+        <e p="OnTriggerEvent.cs" t="Include" />
         <e p="OnTriggerExitEvent.cs" t="Include" />
         <e p="ProCore" t="Include">
           <e p="ProBuilder" t="Include">
