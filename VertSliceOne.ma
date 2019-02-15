@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: VertSliceOne.ma
-//Last modified: Fri, Feb 15, 2019 12:48:13 PM
+//Last modified: Fri, Feb 15, 2019 12:49:29 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "3E1321FD-4F27-7678-4222-E082D10D4146";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 141.61222331747476 21.240844682675217 -1.8057841528208824 ;
-	setAttr ".r" -type "double3" -5.138352721018113 1529.7999999908013 0 ;
+	setAttr ".t" -type "double3" 283.76307431117107 28.025049117745795 -33.844837661154706 ;
+	setAttr ".r" -type "double3" -3.9383527216048639 1536.1999999907632 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "B6F8F926-45B7-2139-A11D-21B06ECD0ADA";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 148.61565975911762;
+	setAttr ".coi" 292.56645129301921;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
