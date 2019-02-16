@@ -161,7 +161,32 @@ ModelImporter:
     4300046: polySurface614_polySurface607
     4300048: polySurface615
     4300050: pPlane1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube682Mat
+    second: {instanceID: 0}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder24Mat
+    second: {fileID: 2100034, guid: e281e358e226e6a418917930f35661fb, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder25Mat
+    second: {fileID: 2100036, guid: e281e358e226e6a418917930f35661fb, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder26Mat
+    second: {fileID: 2100038, guid: e281e358e226e6a418917930f35661fb, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder28Mat
+    second: {fileID: 2100040, guid: e281e358e226e6a418917930f35661fb, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
