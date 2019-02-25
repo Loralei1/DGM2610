@@ -70,15 +70,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnTriggerEnterEvent.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OnTriggerEnterEvent.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="60">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <marker date="1548744465011" expanded="false" signature="6:104" ph="..." />
                 <marker date="1548744465011" expanded="true" signature="154:273" ph="{...}" />
                 <marker date="1548744465011" expanded="true" signature="235:271" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SplashTrigger.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/SplashTrigger.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding>
+                <marker date="1551084711919" expanded="true" signature="6:129" ph="..." />
+                <marker date="1551084711919" expanded="true" signature="173:376" ph="{...}" />
+                <marker date="1551084711919" expanded="true" signature="254:374" ph="{...}" />
+                <marker date="1551084711919" expanded="true" signature="311:359" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -111,15 +126,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountDownDisplay.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/CountDownDisplay.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -135,6 +141,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/FlockFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DeathVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MakeActiveTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SplashTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ReverseTrapdoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UpdatePattern.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DoubleJumpChange.cs" root0="FORCE_HIGHLIGHTING" />
@@ -183,6 +190,7 @@
         <option value="$PROJECT_DIR$/Assets/MakeActiveTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/MakeInactiveTimer.cs" />
+        <option value="$PROJECT_DIR$/Assets/SplashTrigger.cs" />
       </list>
     </option>
   </component>
@@ -266,12 +274,12 @@
       <workItem from="1549751937074" duration="3682000" />
       <workItem from="1549858137293" duration="9994000" />
       <workItem from="1550354502563" duration="587000" />
-      <workItem from="1551084051046" duration="543000" />
+      <workItem from="1551084051046" duration="1229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31167000" />
+    <option name="totallyTimeSpent" value="31853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -283,8 +291,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="175" y="161" width="1490" height="780" extended-state="0" />
-    <editor active="true" />
+    <frame x="175" y="161" width="1490" height="780" extended-state="1" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -317,13 +324,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/KeyGrab.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MovePatternChange.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -617,19 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <marker date="1549861461078" expanded="false" signature="6:104" ph="..." />
-            <marker date="1549861461078" expanded="true" signature="149:342" ph="{...}" />
-            <marker date="1549861461078" expanded="true" signature="230:340" ph="{...}" />
-            <marker date="1549861461078" expanded="true" signature="286:334" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -645,14 +632,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <marker date="1549861461078" expanded="false" signature="6:104" ph="..." />
+            <marker date="1549861461078" expanded="true" signature="149:342" ph="{...}" />
+            <marker date="1549861461078" expanded="true" signature="230:340" ph="{...}" />
+            <marker date="1549861461078" expanded="true" signature="286:334" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
           <folding>
             <marker date="1548744465011" expanded="false" signature="6:104" ph="..." />
             <marker date="1548744465011" expanded="true" signature="154:273" ph="{...}" />
             <marker date="1548744465011" expanded="true" signature="235:271" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SplashTrigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <marker date="1551084711919" expanded="true" signature="6:129" ph="..." />
+            <marker date="1551084711919" expanded="true" signature="173:376" ph="{...}" />
+            <marker date="1551084711919" expanded="true" signature="254:374" ph="{...}" />
+            <marker date="1551084711919" expanded="true" signature="311:359" ph="{...}" />
           </folding>
         </state>
       </provider>
