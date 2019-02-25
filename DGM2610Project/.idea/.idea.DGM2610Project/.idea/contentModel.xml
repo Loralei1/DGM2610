@@ -284,6 +284,7 @@
         <e p="Run.cs" t="Include" />
         <e p="Shoot.cs" t="Include" />
         <e p="ShotMove.cs" t="Include" />
+        <e p="SplashTrigger.cs" t="Include" />
         <e p="StopRunning.cs" t="Include" />
         <e p="TransferTrigger.cs" t="Include" />
         <e p="Trapdoor.cs" t="Include" />
