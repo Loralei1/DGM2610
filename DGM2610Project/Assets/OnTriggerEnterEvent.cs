@@ -9,7 +9,12 @@ public class OnTriggerEnterEvent : MonoBehaviour
 
 
     private void OnTriggerEnter(Collider other)
+    
     {
-        Event.Invoke();
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Event.Invoke();
+        }
+        
     }
 }

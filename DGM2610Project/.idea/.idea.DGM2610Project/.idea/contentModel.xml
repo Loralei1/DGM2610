@@ -156,6 +156,7 @@
         <e p="MovePatternChange.cs" t="Include" />
         <e p="MovePatternNotGrounded.cs" t="Include" />
         <e p="NewBehaviourScript.cs" t="Include" />
+        <e p="NewSpeed.cs" t="Include" />
         <e p="OnKeyEvent.cs" t="Include" />
         <e p="OnTriggerEnterEvent.cs" t="Include" />
         <e p="OnTriggerEvent.cs" t="Include" />
@@ -286,6 +287,7 @@
         </e>
         <e p="ReverseTrapdoor.cs" t="Include" />
         <e p="Run.cs" t="Include" />
+        <e p="SetSpeed.cs" t="Include" />
         <e p="Shoot.cs" t="Include" />
         <e p="ShotMove.cs" t="Include" />
         <e p="SplashTrigger.cs" t="Include" />

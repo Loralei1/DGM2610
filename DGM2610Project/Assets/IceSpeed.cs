@@ -1,23 +1,35 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class IceSpeed : MonoBehaviour
 {
     public FloatData speed;
+    public GameObject other;
+
 
     private void Start()
+
     {
-        gameObject.active = false;
+        other.gameObject.active = false;
+        speed.value = 12.5f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        while (gameObject.active = true)
+        while (other.gameObject.active = true) 
         {
             speed.value = 0;
-            break; 
+            break;
+
+
         }
+
+       
+        
     }
+
+    
 }

@@ -16,7 +16,7 @@ public class EnemyFollow : MonoBehaviour
     {
         Vector3 localPosition = player.transform.position - transform.position;
         localPosition = localPosition.normalized;
-        transform.Translate(localPosition.x * Time.deltaTime * speed.value, localPosition.y * Time.deltaTime * speed.value, localPosition.z);
+        transform.Translate(localPosition.x * Time.deltaTime * speed.value, localPosition.y * Time.deltaTime * speed.value, localPosition.z * Time.deltaTime * speed.value);
     }
 
     

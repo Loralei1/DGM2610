@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 7787608836264151519}
   - component: {fileID: 4707086325376360162}
   - component: {fileID: 3092245689819828385}
-  - component: {fileID: 2091294974611359743}
   - component: {fileID: 7358965253638695701}
+  - component: {fileID: 1456114615189772425}
+  - component: {fileID: 3839291409761572452}
   m_Layer: 0
   m_Name: Light
   m_TagString: Light
@@ -93,19 +94,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2091294974611359743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814752346843508691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b4285877ca3e59448c36819748f55d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 20
 --- !u!54 &7358965253638695701
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -122,3 +110,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1456114615189772425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814752346843508691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0b4f6d95e629b647a83a8dd999feae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {fileID: 11400000, guid: ea48f2bbd31fa24408c578d674b0e6c2, type: 2}
+  player: {fileID: 5776602484267696400, guid: 1801d554994012343b6d3777128038e5, type: 3}
+--- !u!114 &3839291409761572452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814752346843508691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4285877ca3e59448c36819748f55d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 20
