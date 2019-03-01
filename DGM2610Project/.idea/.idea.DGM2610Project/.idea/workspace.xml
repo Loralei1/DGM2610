@@ -20,11 +20,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Distance.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Distance.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Distance.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="240">
               <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Icebox.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Icebox.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <marker date="1551418690973" expanded="false" signature="6:145" ph="..." />
+                <marker date="1551418690973" expanded="true" signature="182:549" ph="{...}" />
+                <marker date="1551418690973" expanded="true" signature="306:536" ph="{...}" />
+                <marker date="1551418690973" expanded="true" signature="376:530" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MakeInactiveTimer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IceSpeed.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/IceSpeed.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -36,6 +69,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/FloatInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/IceSpeed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TransferTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnKeyEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MoveBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,8 +78,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/MovePattern.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Distance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Icebox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UpdatePattern.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DoubleJumpChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BackToWalk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MovePatternChange.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -79,6 +115,8 @@
         <option value="$PROJECT_DIR$/Assets/MakeInactiveTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/SplashTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Distance.cs" />
+        <option value="$PROJECT_DIR$/Assets/IceSpeed.cs" />
+        <option value="$PROJECT_DIR$/Assets/Icebox.cs" />
       </list>
     </option>
   </component>
@@ -91,7 +129,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="175" />
     <option name="y" value="161" />
     <option name="width" value="1490" />
@@ -164,12 +202,12 @@
       <workItem from="1550354502563" duration="587000" />
       <workItem from="1551084051046" duration="1229000" />
       <workItem from="1551388537569" duration="844000" />
-      <workItem from="1551413868690" duration="1412000" />
+      <workItem from="1551413868690" duration="3529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34109000" />
+    <option name="totallyTimeSpent" value="36226000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -181,8 +219,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="175" y="161" width="1490" height="780" extended-state="0" />
-    <editor active="true" />
+    <frame x="175" y="161" width="1490" height="780" extended-state="1" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -241,7 +278,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Distance.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="240">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
@@ -410,7 +447,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/FlockFollow.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/MakeActiveTimer.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEvent.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -420,5 +456,32 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/SplashTrigger.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/IceSpeed.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Icebox.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <marker date="1551418690973" expanded="false" signature="6:145" ph="..." />
+            <marker date="1551418690973" expanded="true" signature="182:549" ph="{...}" />
+            <marker date="1551418690973" expanded="true" signature="306:536" ph="{...}" />
+            <marker date="1551418690973" expanded="true" signature="376:530" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

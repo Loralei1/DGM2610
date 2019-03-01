@@ -146,6 +146,8 @@
         <e p="FloatData.cs" t="Include" />
         <e p="FloatInput.cs" t="Include" />
         <e p="FlockFollow.cs" t="Include" />
+        <e p="Icebox.cs" t="Include" />
+        <e p="IceSpeed.cs" t="Include" />
         <e p="KeyGrab.cs" t="Include" />
         <e p="MakeActiveTimer.cs" t="Include" />
         <e p="MakeInactiveTimer.cs" t="Include" />
