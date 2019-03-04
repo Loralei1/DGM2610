@@ -21,5 +21,10 @@ public class KeyGrab : MonoBehaviour
         {
             GetComponent<MoveBase>().MovePattern = PatternChange.Transfer (); 
         }
+
+        if (other.gameObject.CompareTag("UnTrigger"))
+        {
+            CanFloat = false; 
+        }
     }
 }

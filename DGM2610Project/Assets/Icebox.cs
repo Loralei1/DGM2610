@@ -27,7 +27,7 @@ public class Icebox : MonoBehaviour
             speed.value = 0;
             yield return new WaitForSeconds(3);
             Off.Invoke();
-            speed.value = 12.5f;
+            speed.value = 13.5f;
 
         }
     }
