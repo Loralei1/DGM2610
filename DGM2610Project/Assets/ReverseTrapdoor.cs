@@ -5,19 +5,22 @@ using UnityEngine;
 
 public class ReverseTrapdoor : MonoBehaviour
 {
-    public GameObject trapdoor;
+    public List<GameObject> trapdoor;
+
 
     private void Start()
     {
-        trapdoor.gameObject.SetActive(false);
+        trapdoor[0].SetActive(false);
     }
 
-    private void OnTriggerExit(Collider other)
+    IEnumerator OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Set");
-            trapdoor.gameObject.SetActive(true);
+            trapdoor[0].SetActive(true);
+            yield return new WaitForSeconds(1);
+            trapdoor[1].SetActive(false);
         }
     }
 }
