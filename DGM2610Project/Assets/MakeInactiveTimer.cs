@@ -8,7 +8,9 @@ public class MakeInactiveTimer : MonoBehaviour
 
     public FloatData speed;
     public GameObject enemy;
+
     
+
     public void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))

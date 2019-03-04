@@ -19,7 +19,7 @@ public class ReverseTrapdoor : MonoBehaviour
         {
             Debug.Log("Set");
             trapdoor[0].SetActive(true);
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(2);
             trapdoor[1].SetActive(false);
         }
     }

@@ -15,7 +15,7 @@ MonoBehaviour:
   jumpSpeed: {fileID: 11400000, guid: b892cf4c5c6c53247910419bacf8668b, type: 2}
   gravity: {fileID: 11400000, guid: 1205bfa9648fb8c4099081cd6adb90f3, type: 2}
   MoveX: {fileID: 11400000, guid: 7d97245fc1b1f354491a72bef0b528f7, type: 2}
-  MoveY: {fileID: 11400000, guid: 7b9f08211e2cc334b8467e2fe62523a7, type: 2}
+  MoveY: {fileID: 11400000, guid: bce52ef9d539f8648a87b60be3851715, type: 2}
   MoveZ: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
   RotX: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
   RotY: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
