@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Tracing;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Shoot : MonoBehaviour
 {
@@ -11,6 +13,7 @@ public class Shoot : MonoBehaviour
     	public float fireRate;
 
 		public FloatData shotcount;
+	    public Image FireFly;
     
     
     
@@ -35,6 +38,7 @@ public class Shoot : MonoBehaviour
     			Instantiate(Shot, shotSpot.position, shotSpot.rotation);
 
 			    shotcount.value--;
+			    FireFly.fillAmount = FireFly.fillAmount - 0.1f;
 
 		    }
     
