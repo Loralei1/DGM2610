@@ -11,36 +11,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Distance.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Distance.cs">
+      <file leaf-file-name="OnTriggerEnterEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="FireList.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/FireList.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
-                <marker date="1551758760798" expanded="false" signature="6:78" ph="..." />
-                <marker date="1551758760798" expanded="true" signature="117:744" ph="{...}" />
-                <marker date="1551758760798" expanded="true" signature="232:742" ph="{...}" />
-                <marker date="1551758760798" expanded="true" signature="366:622" ph="{...}" />
-                <marker date="1551758760798" expanded="true" signature="632:736" ph="/* os = other.transform.position; ... */" />
+                <marker date="1551768033893" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551768033893" expanded="true" signature="117:380" ph="{...}" />
+                <marker date="1551768033893" expanded="true" signature="228:378" ph="{...}" />
+                <marker date="1551768033893" expanded="true" signature="296:372" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeyGrab.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/KeyGrab.cs">
+      <file leaf-file-name="Distance.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Distance.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DestroyOnTrigger.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/NewMeshes/LightBubble/DestroyOnTrigger.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="240">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -62,8 +57,8 @@
       <file leaf-file-name="Shoot.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shoot.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="41" />
+            <state relative-caret-position="317">
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -124,6 +119,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/OnKeyEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnTriggerExitEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FireList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MovePattern.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FloatChange.cs" root0="FORCE_HIGHLIGHTING" />
@@ -173,6 +169,7 @@
         <option value="$PROJECT_DIR$/Assets/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/ShotPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Distance.cs" />
+        <option value="$PROJECT_DIR$/Assets/FireList.cs" />
       </list>
     </option>
   </component>
@@ -185,7 +182,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="175" />
     <option name="y" value="161" />
     <option name="width" value="1490" />
@@ -262,12 +259,12 @@
       <workItem from="1551465166562" duration="2452000" />
       <workItem from="1551469324238" duration="1296000" />
       <workItem from="1551470725317" duration="2867000" />
-      <workItem from="1551660522201" duration="7787000" />
+      <workItem from="1551660522201" duration="9924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50628000" />
+    <option name="totallyTimeSpent" value="52765000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,8 +276,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="175" y="161" width="1490" height="780" extended-state="1" />
-    <editor active="true" />
+    <frame x="175" y="161" width="1490" height="780" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -316,13 +312,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MovePatternChange.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -495,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/NewSpeed.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -574,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shoot.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ShotPickUp.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -592,12 +567,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shoot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FireList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
-            <marker date="1551758760798" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551758760798" expanded="true" signature="117:744" ph="{...}" />
-            <marker date="1551758760798" expanded="true" signature="232:742" ph="{...}" />
-            <marker date="1551758760798" expanded="true" signature="366:622" ph="{...}" />
-            <marker date="1551758760798" expanded="true" signature="632:736" ph="/* os = other.transform.position; ... */" />
+            <marker date="1551768033893" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551768033893" expanded="true" signature="117:380" ph="{...}" />
+            <marker date="1551768033893" expanded="true" signature="228:378" ph="{...}" />
+            <marker date="1551768033893" expanded="true" signature="296:372" ph="{...}" />
           </folding>
         </state>
       </provider>

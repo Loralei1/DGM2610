@@ -142,6 +142,7 @@
         <e p="Distance.cs" t="Include" />
         <e p="DoubleJumpChange.cs" t="Include" />
         <e p="EnemyFollow.cs" t="Include" />
+        <e p="FireList.cs" t="Include" />
         <e p="FloatChange.cs" t="Include" />
         <e p="FloatData.cs" t="Include" />
         <e p="FloatInput.cs" t="Include" />
