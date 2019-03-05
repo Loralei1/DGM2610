@@ -5,7 +5,7 @@ using UnityEngine;
 public class FireList : MonoBehaviour
 {
 
-    public List<GameObject> Fireflies;
+    public GameObject[] Fireflies;
 
    
     
@@ -14,10 +14,12 @@ public class FireList : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Fire1") && Fireflies.Count >= 1)
+        if (Input.GetButton("Fire1") && Fireflies.Length >= 1)
         {
-            Fireflies[1].SetActive(false);
-            
+            foreach (GameObject gameObject in Fireflies)
+            {
+                Fireflies[0].SetActive(false);
+            }
         }
     }
 }
