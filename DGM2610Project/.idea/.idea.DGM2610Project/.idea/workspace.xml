@@ -23,13 +23,14 @@
       <file leaf-file-name="FireList.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/FireList.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="270">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding>
-                <marker date="1551822710920" expanded="false" signature="6:78" ph="..." />
-                <marker date="1551822710920" expanded="true" signature="117:415" ph="{...}" />
-                <marker date="1551822710920" expanded="true" signature="224:413" ph="{...}" />
-                <marker date="1551822710920" expanded="true" signature="293:407" ph="{...}" />
+                <marker date="1551822906969" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551822906969" expanded="true" signature="117:453" ph="{...}" />
+                <marker date="1551822906969" expanded="true" signature="224:451" ph="{...}" />
+                <marker date="1551822906969" expanded="true" signature="293:445" ph="{...}" />
+                <marker date="1551822906969" expanded="true" signature="360:435" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -220,12 +221,12 @@
       <workItem from="1551469324238" duration="1296000" />
       <workItem from="1551470725317" duration="2867000" />
       <workItem from="1551660522201" duration="9924000" />
-      <workItem from="1551817260494" duration="2739000" />
+      <workItem from="1551817260494" duration="3523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55504000" />
+    <option name="totallyTimeSpent" value="56288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -238,7 +239,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="175" y="161" width="1490" height="780" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -518,13 +518,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/FireList.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="270">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
-            <marker date="1551822710920" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551822710920" expanded="true" signature="117:415" ph="{...}" />
-            <marker date="1551822710920" expanded="true" signature="224:413" ph="{...}" />
-            <marker date="1551822710920" expanded="true" signature="293:407" ph="{...}" />
+            <marker date="1551822906969" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551822906969" expanded="true" signature="117:453" ph="{...}" />
+            <marker date="1551822906969" expanded="true" signature="224:451" ph="{...}" />
+            <marker date="1551822906969" expanded="true" signature="293:445" ph="{...}" />
+            <marker date="1551822906969" expanded="true" signature="360:435" ph="{...}" />
           </folding>
         </state>
       </provider>
