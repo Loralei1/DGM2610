@@ -142,6 +142,7 @@
         <e p="DeathVolume.cs" t="Include" />
         <e p="Distance.cs" t="Include" />
         <e p="DoubleJumpChange.cs" t="Include" />
+        <e p="DrowingCountDown.cs" t="Include" />
         <e p="EnemyFollow.cs" t="Include" />
         <e p="FireList.cs" t="Include" />
         <e p="FloatChange.cs" t="Include" />
@@ -149,6 +150,7 @@
         <e p="FloatInput.cs" t="Include" />
         <e p="FlockFollow.cs" t="Include" />
         <e p="Hazard.cs" t="Include" />
+        <e p="HazardDeath.cs" t="Include" />
         <e p="HealthBar.cs" t="Include" />
         <e p="Icebox.cs" t="Include" />
         <e p="IceSpeed.cs" t="Include" />

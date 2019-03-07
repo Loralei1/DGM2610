@@ -45,7 +45,7 @@ public class Hazard : MonoBehaviour
 
     {
 
-        if (other.gameObject.CompareTag("Hazard"))
+        if (other.gameObject.CompareTag("Player"))
 
         {
 
