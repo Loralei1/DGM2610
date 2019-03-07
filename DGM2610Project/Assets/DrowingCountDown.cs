@@ -15,11 +15,16 @@ public class DrowingCountDown : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Water"))
         {
-            while (drowningTime.value > 0);
+            while (drowningTime.value > 0)
             {
                 yield return new WaitForSeconds(1);
+                print("Counting");
                 drowningTime.value--; 
+                
+                
             }
+            yield break;
+           
         }
     }
 
