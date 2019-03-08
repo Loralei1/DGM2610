@@ -12,6 +12,7 @@ TagManager:
   - ForceField
   - UnTrigger
   - Water
+  - Drown
   layers:
   - Default
   - TransparentFX

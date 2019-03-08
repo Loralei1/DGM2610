@@ -11,26 +11,32 @@ public class DrowingCountDown : MonoBehaviour
         drowningTime.value = 5; 
     }
 
-    IEnumerator OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.CompareTag("Water"))
+    IEnumerator OnTriggerEnter(Collider other)
+    
+    {   print("Trigger");
+        if (other.gameObject.CompareTag("Drown"))
+
+
         {
+            print("Tag");
             while (drowningTime.value > 0)
             {
                 yield return new WaitForSeconds(1);
                 print("Counting");
                 drowningTime.value--; 
+                yield break;
                 
                 
             }
-            yield break;
+            
+            
            
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Water"))
+        if (other.gameObject.CompareTag("Drown"))
         {
             drowningTime.value = 5;
         }
