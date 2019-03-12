@@ -15,9 +15,12 @@ public class TransferTrigger : MonoBehaviour
 
 
     {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.GetComponent<MoveBase>().MovePattern = PatternChange.Transfer ();
+        }
 
-
-        other.GetComponent<MoveBase>().MovePattern = PatternChange.Transfer ();
+       
 
 
 

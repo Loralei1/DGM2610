@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StopRunning : MonoBehaviour
+public class SlowPoison : MonoBehaviour
 {
     public MovePatternChange PatternChange;
     

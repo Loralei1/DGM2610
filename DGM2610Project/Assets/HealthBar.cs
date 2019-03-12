@@ -19,6 +19,10 @@ public class HealthBar : MonoBehaviour
         nettle,
 
         owl,
+        
+        healthPotion, 
+        
+        extrahealthPotion
 
     };
 
@@ -92,6 +96,16 @@ public class HealthBar : MonoBehaviour
 
 
                     break;
+                
+                case (hazards.healthPotion):
+
+                    healthbar.fillAmount = healthbar.fillAmount + 0.05f;
+                    break; 
+                
+                case (hazards.extrahealthPotion):
+
+                    healthbar.fillAmount = healthbar.fillAmount + 0.1f;
+                    break; 
 
 
 

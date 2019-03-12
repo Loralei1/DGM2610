@@ -18,6 +18,10 @@ public class Hazard : MonoBehaviour
         nettle,
 
         owl,
+        
+        healthPotion,
+         
+        extrahealthPotion
 
     };
 
@@ -91,6 +95,16 @@ public class Hazard : MonoBehaviour
 
 
                     break;
+                
+                case (hazards.healthPotion):
+
+                    playerHealth.value = playerHealth.value + 5;
+                    break; 
+                
+                case (hazards.extrahealthPotion):
+
+                    playerHealth.value = playerHealth.value + 10;
+                    break; 
 
 
 
