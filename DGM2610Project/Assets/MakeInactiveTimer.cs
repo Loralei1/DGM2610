@@ -27,7 +27,7 @@ public class MakeInactiveTimer : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Set");
-            speed.value = 14;
+            speed.value = 13.5f;
             enemy.SetActive(true);
             
         }

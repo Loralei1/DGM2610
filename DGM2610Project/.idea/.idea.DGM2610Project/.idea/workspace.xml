@@ -20,11 +20,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IceSpeed.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/IceSpeed.cs">
+      <file leaf-file-name="EnemyFollow.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state>
+              <folding>
+                <marker date="1551466815896" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551466815896" expanded="true" signature="120:547" ph="{...}" />
+                <marker date="1551466815896" expanded="true" signature="224:539" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,21 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrowingCountDown.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DrowingCountDown.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/DrowingCountDown.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="467">
               <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-              <folding>
-                <marker date="1552503491335" expanded="false" signature="6:97" ph="..." />
-                <marker date="1552503491335" expanded="true" signature="166:1055" ph="{...}" />
-                <marker date="1552503491335" expanded="true" signature="265:310" ph="{...}" />
-                <marker date="1552503491335" expanded="true" signature="363:797" ph="{...}" />
-                <marker date="1552503491335" expanded="true" signature="441:791" ph="{...}" />
-                <marker date="1552503491335" expanded="true" signature="520:743" ph="{...}" />
-                <marker date="1552503491335" expanded="true" signature="860:1053" ph="{...}" />
-                <marker date="1552503491335" expanded="true" signature="916:1047" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -299,12 +293,12 @@
       <workItem from="1552013179364" duration="7332000" />
       <workItem from="1552415863817" duration="3496000" />
       <workItem from="1552446167341" duration="1685000" />
-      <workItem from="1552494401293" duration="2219000" />
+      <workItem from="1552494401293" duration="2800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76461000" />
+    <option name="totallyTimeSpent" value="77042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,9 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/IceSpeed.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -609,15 +600,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <marker date="1552503491335" expanded="false" signature="6:97" ph="..." />
-            <marker date="1552503491335" expanded="true" signature="166:1055" ph="{...}" />
-            <marker date="1552503491335" expanded="true" signature="265:310" ph="{...}" />
-            <marker date="1552503491335" expanded="true" signature="363:797" ph="{...}" />
-            <marker date="1552503491335" expanded="true" signature="441:791" ph="{...}" />
-            <marker date="1552503491335" expanded="true" signature="520:743" ph="{...}" />
-            <marker date="1552503491335" expanded="true" signature="860:1053" ph="{...}" />
-            <marker date="1552503491335" expanded="true" signature="916:1047" ph="{...}" />
+            <marker date="1551466815896" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551466815896" expanded="true" signature="120:547" ph="{...}" />
+            <marker date="1551466815896" expanded="true" signature="224:539" ph="{...}" />
           </folding>
         </state>
       </provider>
