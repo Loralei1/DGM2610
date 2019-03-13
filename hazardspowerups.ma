@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: hazardspowerups.ma
-//Last modified: Tue, Mar 12, 2019 11:10:42 PM
+//Last modified: Tue, Mar 12, 2019 11:22:46 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "4C4DFD6E-40CE-1A7B-DC39-8CACDDE6D1C2";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 120.62215739752526 15.36842458511299 5.326420308276985 ;
-	setAttr ".r" -type "double3" -8.7383527304929469 -634.19999999919014 0 ;
+	setAttr ".t" -type "double3" 76.588784421235772 33.175924158778798 -16.722218225946733 ;
+	setAttr ".r" -type "double3" -18.938352740307018 -614.20000000054131 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7D985915-410A-2060-DC55-E7A622AD1BE8";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 125.62666417864149;
+	setAttr ".coi" 85.409935594785424;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -6172,10 +6172,124 @@ createNode mesh -n "pCylinderShape5" -p "pCylinder6";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".ai_translator" -type "string" "polymesh";
+createNode transform -n "pCube4";
+	rename -uid "67D7595B-4EA4-7A06-29ED-34B8F0B55163";
+	setAttr ".t" -type "double3" 0 6.7561360780490247 23.211539281512508 ;
+	setAttr ".s" -type "double3" 0.64905208192281483 1 1 ;
+createNode mesh -n "pCubeShape4" -p "pCube4";
+	rename -uid "3BFA1749-489E-F3B7-343E-18AE570C82F1";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.47368299961090088 0.7858157753944397 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 44 ".uvst[0].uvsp[0:43]" -type "float2" 0.71460879 0.74097347
+		 0.77390623 0.68816924 0.097255349 0.81722486 0.76215637 0.81135011 0.22446603 0.7391119
+		 0.18948722 0.82098782 0.12024719 0.89958405 0.19728142 0.86044127 0.22829443 0.92806637
+		 0.18670273 0.95679915 0.75465453 0.8520413 0.73334157 0.91670477 0.28480446 0.96633554
+		 0.66842663 0.86533964 0.28196526 0.87058413 0.33895206 0.92477596 0.38216954 0.95098782
+		 0.60603726 0.91973877 0.50776064 0.89979649 0.58166397 0.85616165 0.36589766 0.85542279
+		 0.48438048 0.82008684 0.37132335 0.8155719 0.33151662 0.7359221 0.38211507 0.69070458
+		 0.57223237 0.81587219 0.61637533 0.74330926 0.274064 0.60605347 0.66339886 0.65413404
+		 0.27555674 0.65606964 0.28023893 0.81269097 0.28090286 0.83493245 0.6671797 0.81304383
+		 0.66770554 0.83510137 0.83055758 0.89209974 0.85011065 0.81136894 0.44512433 0.8899101
+		 0.46316332 0.80630887 0.17125088 0.69699895 0.66224182 0.60529602 0.55463076 0.69338548
+		 0.574067 0.95479691 0.67062616 0.95746529 0.76694977 0.95019782;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 34 ".vt[0:33]"  -0.26343626 -0.21435523 0.16653135 0.23727624 -0.21435523 0.16653135
+		 -0.14772654 0.27777791 0.21005157 0.13771658 0.27777791 0.18092556 -0.14772654 0.27777767 -0.2100516
+		 0.13771658 0.27777791 -0.18092556 -0.26343626 -0.21435523 -0.16653132 0.23727624 -0.21435523 -0.16653135
+		 -0.33614445 0.10817504 0 0.375 0 -0.45496827 0 -0.31157756 -0.26375356 -0.375 0 -0.45496827
+		 0.14290725 -0.54999733 0 -0.13594492 -0.54999733 0 0 -0.31157756 0.26375356 0.375 0 0.45496827
+		 2.1381625e-17 0.375 0.27814776 -0.375 0 0.45496827 0.375 0.18854737 0 2.1381625e-17 0.375 -0.27814776
+		 0 0 0.57996827 0 0.23317504 0 0 0 -0.57996827 0 -0.67499733 0 0.5 0 0 -0.5 0 0 0.3594636 0.17031312 -0.38989645
+		 0 0.25044513 -0.52489018 -0.35946357 0.17031312 -0.38989645 -0.44610599 0.07041955 0
+		 -0.35946357 0.17031312 0.38989645 0 0.25044513 0.52489018 0.35946357 0.17031312 0.38989645
+		 0.44610599 0.07041955 0;
+	setAttr -s 64 ".ed[0:63]"  0 14 1 14 1 1 2 16 1 16 3 1 4 19 1 19 5 1
+		 6 10 1 10 7 1 0 17 1 17 30 1 1 15 1 15 32 1 2 8 1 8 4 1 3 18 1 18 5 1 4 28 1 11 6 1
+		 5 26 1 9 7 1 6 13 1 13 0 1 7 12 1 12 1 1 14 20 1 20 17 1 15 20 1 16 31 1 16 21 1
+		 21 8 1 18 21 1 19 21 1 19 27 1 22 11 1 9 22 1 10 22 1 10 23 1 23 13 1 12 23 1 14 23 1
+		 12 24 1 24 15 1 9 24 1 18 33 1 13 25 1 25 11 1 17 25 1 8 29 1 26 9 1 27 22 1 26 27 1
+		 28 11 1 27 28 1 29 25 1 28 29 1 30 2 1 29 30 1 31 20 1 30 31 1 32 3 1 31 32 1 33 24 1
+		 32 33 1 33 26 1;
+	setAttr -s 32 -ch 128 ".fc[0:31]" -type "polyFaces" 
+		f 4 0 24 25 -9
+		mu 0 4 0 1 35 3
+		f 4 1 10 26 -25
+		mu 0 4 38 4 5 2
+		f 4 60 59 -4 27
+		mu 0 4 6 7 8 9
+		f 4 58 -28 -3 -56
+		mu 0 4 10 34 43 11
+		f 4 2 28 29 -13
+		mu 0 4 11 43 42 13
+		f 4 3 14 30 -29
+		mu 0 4 9 8 14 12
+		f 4 -31 15 -6 31
+		mu 0 4 12 14 15 16
+		f 4 -30 -32 -5 -14
+		mu 0 4 13 42 41 17
+		f 4 4 32 52 -17
+		mu 0 4 17 41 18 19
+		f 4 5 18 50 -33
+		mu 0 4 16 15 20 36
+		f 4 -35 19 -8 35
+		mu 0 4 37 22 23 24
+		f 4 -34 -36 -7 -18
+		mu 0 4 25 21 40 26
+		f 4 6 36 37 -21
+		mu 0 4 26 40 39 28
+		f 4 7 22 38 -37
+		mu 0 4 24 23 29 27
+		f 4 -39 23 -2 39
+		mu 0 4 27 29 4 38
+		f 4 -38 -40 -1 -22
+		mu 0 4 28 39 1 0
+		f 4 -24 40 41 -11
+		mu 0 4 4 29 30 5
+		f 4 -23 -20 42 -41
+		mu 0 4 29 23 22 30
+		f 4 63 -19 -16 43
+		mu 0 4 31 20 15 14
+		f 4 62 -44 -15 -60
+		mu 0 4 7 31 14 8
+		f 4 20 44 45 17
+		mu 0 4 26 28 32 25
+		f 4 21 8 46 -45
+		mu 0 4 28 0 3 32
+		f 4 56 55 12 47
+		mu 0 4 33 10 11 13
+		f 4 54 -48 13 16
+		mu 0 4 19 33 13 17
+		f 4 -51 48 34 -50
+		mu 0 4 36 20 22 37
+		f 4 -53 49 33 -52
+		mu 0 4 19 18 21 25
+		f 4 -46 -54 -55 51
+		mu 0 4 25 32 33 19
+		f 4 -47 9 -57 53
+		mu 0 4 32 3 10 33
+		f 4 -26 -58 -59 -10
+		mu 0 4 3 35 34 10
+		f 4 -27 11 -61 57
+		mu 0 4 2 5 7 6
+		f 4 -42 -62 -63 -12
+		mu 0 4 5 30 31 7
+		f 4 -43 -49 -64 61
+		mu 0 4 30 22 20 31;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "B3F8B170-42E7-7718-B21A-088ECF1560E0";
-	setAttr -s 8 ".lnk";
-	setAttr -s 8 ".slnk";
+	setAttr -s 9 ".lnk";
+	setAttr -s 9 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
 	rename -uid "4C5F1BB2-4884-B23B-35DC-0BA9F745B735";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
@@ -8134,6 +8248,15 @@ createNode groupId -n "groupId8";
 createNode groupId -n "groupId9";
 	rename -uid "718C3ABD-4D13-127A-449F-0C8E94ED0252";
 	setAttr ".ihi" 0;
+createNode blinn -n "blinn5";
+	rename -uid "5A21F138-4895-7B5E-DF77-97A5664BBD91";
+	setAttr ".c" -type "float3" 1 0 0 ;
+createNode shadingEngine -n "blinn5SG";
+	rename -uid "02904EB2-4AD4-8AC2-8007-539DDAE1FD14";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo7";
+	rename -uid "951DD6AD-44B0-D8B8-8226-1BAA084E723D";
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
@@ -8144,10 +8267,10 @@ select -ne :hardwareRenderingGlobals;
 		 0 0 0 0 ;
 	setAttr ".fprt" yes;
 select -ne :renderPartition;
-	setAttr -s 8 ".st";
+	setAttr -s 9 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 10 ".s";
+	setAttr -s 11 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderingList1;
@@ -8188,6 +8311,7 @@ relationship "link" ":lightLinker1" "blinn2SG.message" ":defaultLightSet.message
 relationship "link" ":lightLinker1" "lambert3SG.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "blinn3SG.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "blinn4SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "blinn5SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "lambert2SG.message" ":defaultLightSet.message";
@@ -8196,6 +8320,7 @@ relationship "shadowLink" ":lightLinker1" "blinn2SG.message" ":defaultLightSet.m
 relationship "shadowLink" ":lightLinker1" "lambert3SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "blinn3SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "blinn4SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "blinn5SG.message" ":defaultLightSet.message";
 connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
 connectAttr "polyTweak1.out" "polySplitRing1.ip";
@@ -8276,18 +8401,24 @@ connectAttr "pCylinderShape5.iog.og[1]" "blinn4SG.dsm" -na;
 connectAttr "pCylinderShape5.iog" "blinn4SG.dsm" -na;
 connectAttr "blinn4SG.msg" "materialInfo6.sg";
 connectAttr "blinn4.msg" "materialInfo6.m";
+connectAttr "blinn5.oc" "blinn5SG.ss";
+connectAttr "pCubeShape4.iog" "blinn5SG.dsm" -na;
+connectAttr "blinn5SG.msg" "materialInfo7.sg";
+connectAttr "blinn5.msg" "materialInfo7.m";
 connectAttr "lambert2SG.pa" ":renderPartition.st" -na;
 connectAttr "blinn1SG.pa" ":renderPartition.st" -na;
 connectAttr "blinn2SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert3SG.pa" ":renderPartition.st" -na;
 connectAttr "blinn3SG.pa" ":renderPartition.st" -na;
 connectAttr "blinn4SG.pa" ":renderPartition.st" -na;
+connectAttr "blinn5SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert2.msg" ":defaultShaderList1.s" -na;
 connectAttr "blinn1.msg" ":defaultShaderList1.s" -na;
 connectAttr "blinn2.msg" ":defaultShaderList1.s" -na;
 connectAttr "lambert3.msg" ":defaultShaderList1.s" -na;
 connectAttr "blinn3.msg" ":defaultShaderList1.s" -na;
 connectAttr "blinn4.msg" ":defaultShaderList1.s" -na;
+connectAttr "blinn5.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "pCylinderShape3.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape3.ciog.cog[0]" ":initialShadingGroup.dsm" -na;
