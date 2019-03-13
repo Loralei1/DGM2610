@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using Parabox.STL;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DrowingCountDown : MonoBehaviour
 {
     public FloatData drowningTime;
+    public Image drowningBar; 
     
 
     private void Start()
@@ -26,10 +28,11 @@ public class DrowingCountDown : MonoBehaviour
                 yield return new WaitForSeconds(1);
               
               
-                drowningTime.value--; 
-                
-                
-                
+                drowningTime.value--;
+                drowningBar.fillAmount = drowningBar.fillAmount - 0.2f;
+
+
+
             }
             
             
@@ -45,6 +48,7 @@ public class DrowingCountDown : MonoBehaviour
         if (other.gameObject.CompareTag("Drown"))
         {
             drowningTime.value = 5;
+            drowningBar.fillAmount = 1; 
             StopAllCoroutines(); 
         }
     }

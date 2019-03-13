@@ -13,6 +13,7 @@ TagManager:
   - UnTrigger
   - Water
   - Drown
+  - bottle
   layers:
   - Default
   - TransparentFX

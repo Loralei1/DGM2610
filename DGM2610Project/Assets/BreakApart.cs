@@ -6,14 +6,15 @@ public class BreakApart : MonoBehaviour
 {
     public GameObject objectOne;
     public GameObject objectTwo;
+    public Transform transform; 
 
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Light"))
         {
             objectOne.SetActive(false);
-            objectTwo.SetActive(true);
+            Instantiate(objectTwo, transform.position, transform.rotation);
         }
     }
 }
