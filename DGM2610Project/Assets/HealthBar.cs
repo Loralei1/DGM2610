@@ -92,7 +92,7 @@ public class HealthBar : MonoBehaviour
 
                 case (hazards.nettle):
 
-                    healthbar.fillAmount = healthbar.fillAmount - 0.07f;
+                    healthbar.fillAmount = healthbar.fillAmount - 0.15f;
 
 
                     break;

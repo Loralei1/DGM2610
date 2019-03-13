@@ -181,5 +181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec85863b3aca968488d87e415d864a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar: {fileID: 0}
+  healthbar: {fileID: 2683983131560082550, guid: 425acda2dd513b84bb91bae2e512c80f,
+    type: 3}
   hazardname: 0

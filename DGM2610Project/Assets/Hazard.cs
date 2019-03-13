@@ -91,7 +91,7 @@ public class Hazard : MonoBehaviour
 
                 case (hazards.nettle):
 
-                    playerHealth.value = playerHealth.value - 7;
+                    playerHealth.value = playerHealth.value - 15;
 
 
                     break;
