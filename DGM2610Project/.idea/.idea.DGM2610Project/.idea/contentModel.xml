@@ -145,6 +145,7 @@
         <e p="DrowingCountDown.cs" t="Include" />
         <e p="EnemyFollow.cs" t="Include" />
         <e p="EnemyLightning.cs" t="Include" />
+        <e p="EnemyStayAway.cs" t="Include" />
         <e p="FireList.cs" t="Include" />
         <e p="FloatChange.cs" t="Include" />
         <e p="FloatData.cs" t="Include" />
