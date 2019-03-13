@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Float
   m_EditorClassIdentifier: 
   jumpSpeed: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
-  gravity: {fileID: 11400000, guid: 1369735f57cad024385a2f3d981b0a0a, type: 2}
+  gravity: {fileID: 11400000, guid: cee72c5fe7c8dc840aa13a4e52b6140e, type: 2}
   MoveX: {fileID: 11400000, guid: f33477209da770944a3182ae3c12999f, type: 2}
   MoveY: {fileID: 11400000, guid: ce703faf2db976d43b2168b8af4a131d, type: 2}
   MoveZ: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
