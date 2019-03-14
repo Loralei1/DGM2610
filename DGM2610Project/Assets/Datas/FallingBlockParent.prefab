@@ -143,6 +143,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.37752002
       objectReference: {fileID: 0}
+    - target: {fileID: 1999140879, guid: c350900b067802e4c8c575fcc96d1286, type: 3}
+      propertyPath: m_TagString
+      value: Brick
+      objectReference: {fileID: 0}
     - target: {fileID: 5863363632671299502, guid: c350900b067802e4c8c575fcc96d1286,
         type: 3}
       propertyPath: m_Mass
