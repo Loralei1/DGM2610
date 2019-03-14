@@ -49,7 +49,7 @@ public class Hazard : MonoBehaviour
 
     {
 
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && playerHealth.value <= 100)
 
         {
 
