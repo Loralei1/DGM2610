@@ -10,7 +10,7 @@ public class EnemyStayAway : MonoBehaviour
 
     private void Update()
     {
-        distance.value = Vector3.Distance(this.transform.position, other.transform.position);
+        distance.value = Vector3.Distance(transform.position, other.transform.position);
 
         if (distance.value <= 10)
         {

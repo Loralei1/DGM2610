@@ -83,7 +83,7 @@ public class Hazard : MonoBehaviour
 
                 case (hazards.owl):
 
-                    playerHealth.value = playerHealth.value - 5;
+                    playerHealth.value = playerHealth.value - 20;
 
                     break;
 

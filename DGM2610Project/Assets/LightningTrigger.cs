@@ -12,6 +12,7 @@ public class LightningTrigger : MonoBehaviour
     {
         if (lightningCount.value >= 5 && other.gameObject.CompareTag("Light"))
         {
+            Debug.Log("Lightning");
             Instantiate(lightball, transform.position, transform.rotation);
         }
     }

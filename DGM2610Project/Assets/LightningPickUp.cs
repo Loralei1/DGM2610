@@ -10,7 +10,7 @@ public class LightningPickUp : MonoBehaviour
 
     private void Start()
     {
-        bottleCount.value = 0; 
+        bottleCount.value = 6; 
     }
 
     private void OnTriggerEnter(Collider other)

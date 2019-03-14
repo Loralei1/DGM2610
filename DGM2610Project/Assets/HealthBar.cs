@@ -84,7 +84,7 @@ public class HealthBar : MonoBehaviour
 
                 case (hazards.owl):
 
-                    healthbar.fillAmount = healthbar.fillAmount - 0.05f;
+                    healthbar.fillAmount = healthbar.fillAmount - 0.2f;
 
                     break;
 

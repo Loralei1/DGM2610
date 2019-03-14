@@ -13,7 +13,7 @@ public class IceSpeed : MonoBehaviour
 
     {
         other.gameObject.active = false;
-        speed.value = 13.75f;
+        speed.value = 13.5f;
     }
 
     // Update is called once per frame
