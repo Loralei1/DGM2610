@@ -178,6 +178,7 @@
         <e p="OnTriggerEnterEvent.cs" t="Include" />
         <e p="OnTriggerEvent.cs" t="Include" />
         <e p="OnTriggerExitEvent.cs" t="Include" />
+        <e p="PrefabHealthBar.cs" t="Include" />
         <e p="ProCore" t="Include">
           <e p="ProBuilder" t="Include">
             <e p="About" t="Include">
