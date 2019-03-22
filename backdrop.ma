@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: backdrop.ma
-//Last modified: Fri, Mar 22, 2019 12:56:54 PM
+//Last modified: Fri, Mar 22, 2019 12:57:47 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "F287C428-4AAC-D48A-DC26-D7AE37FC12BD";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 60.288685366908709 4.4358595247229227 43.26967617659114 ;
-	setAttr ".r" -type "double3" -9.9383527296494112 85.400000000003416 0 ;
+	setAttr ".t" -type "double3" 129.73647075865671 4.6641653260056533 33.140040996693607 ;
+	setAttr ".r" -type "double3" -3.3383527296510938 94.200000000003797 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "B6C55D1C-4C0B-92A7-F3BC-578E856D05D9";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 33.288186103989183;
+	setAttr ".coi" 102.579918477633;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
