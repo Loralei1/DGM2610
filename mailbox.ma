@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: mailbox.ma
-//Last modified: Sat, Mar 23, 2019 09:11:29 AM
+//Last modified: Sat, Mar 23, 2019 09:12:44 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "629E50FC-4F63-909A-AC0A-9E8B9196A001";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 4.348945998778186 -0.45100466543778839 -31.358308351554314 ;
-	setAttr ".r" -type "double3" 5.061647270427974 172.59999999995699 0 ;
+	setAttr ".t" -type "double3" 25.494424410851707 3.7212795328984707 -5.9635097514897204 ;
+	setAttr ".r" -type "double3" -1.5383527295734476 115.7999999999531 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6F270639-41B3-0CBB-EEBE-03BC1CB258B9";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 38.472149559987237;
+	setAttr ".coi" 28.979294170317161;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
