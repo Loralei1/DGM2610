@@ -14,6 +14,7 @@ public class Shoot : MonoBehaviour
 
 		public FloatData shotcount;
 	    public Image FireFly;
+	    public Light fireFlyLight;
     
     
     
@@ -39,6 +40,7 @@ public class Shoot : MonoBehaviour
 
 			    shotcount.value--;
 			    FireFly.fillAmount = FireFly.fillAmount - 0.1f;
+			    fireFlyLight.intensity = fireFlyLight.intensity - 0.1f;
 
 		    }
     
