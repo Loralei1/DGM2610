@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: boy.ma
-//Last modified: Fri, Apr 12, 2019 12:10:11 PM
+//Last modified: Fri, Apr 12, 2019 12:14:53 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "12579609-4CAD-F2A3-B7D4-CA99236E608F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 3.4416205988637634 2.1847724558408643 4.9902076280359164 ;
-	setAttr ".r" -type "double3" -9.9383527289670575 33.799999999964406 0 ;
+	setAttr ".t" -type "double3" 3.4143872255839218 1.0978663642561615 9.3560639485789334 ;
+	setAttr ".r" -type "double3" -0.93835272896526156 21.399999999963487 8.0064212130746358e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "F74D2C3E-43F1-7286-C119-469439118F82";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 6.9295469801775909;
+	setAttr ".coi" 10.641366050015717;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -2891,7 +2891,6 @@ createNode script -n "sceneConfigurationScriptNode";
 	setAttr ".st" 6;
 createNode displayLayer -n "Mesh";
 	rename -uid "4F0709F6-4AF2-B43D-A342-8CB97C461A5B";
-	setAttr ".dt" 2;
 	setAttr ".do" 1;
 createNode makeNurbCircle -n "makeNurbCircle1";
 	rename -uid "CC1A1E06-48C9-442C-DA71-8F9D35B1E006";
