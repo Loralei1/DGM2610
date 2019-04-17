@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: owlbat.ma
-//Last modified: Wed, Apr 17, 2019 12:06:18 PM
+//Last modified: Wed, Apr 17, 2019 12:15:09 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -210,7 +210,7 @@ createNode parentConstraint -n "polySurface8_parentConstraint1" -p "polySurface8
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" -4.6958393969022039 1.632027450958655 -4.0708785848889972 ;
 	setAttr ".tg[0].tor" -type "double3" 170.39910691373598 66.235654281836418 -10.471496972277999 ;
-	setAttr ".lr" -type "double3" 9.3513761366583861 -1.4216063522690541 -0.082886429336664069 ;
+	setAttr ".lr" -type "double3" 42.209977377658298 -5.2918180873102925 -0.35148658880567413 ;
 	setAttr ".rst" -type "double3" 0 -6.6613381477509392e-16 1.7763568394002505e-15 ;
 	setAttr ".rsrr" -type "double3" 7.1562480332929135e-15 1.9083328088781101e-14 1.5902773407317594e-15 ;
 	setAttr -k on ".w0";
@@ -358,7 +358,7 @@ createNode parentConstraint -n "polySurface9_parentConstraint1" -p "polySurface9
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 4.6290011445996093 -1.6320296635701681 4.0419412762585436 ;
 	setAttr ".tg[0].tor" -type "double3" -170.39910691373603 -66.235654281836432 169.52850302772208 ;
-	setAttr ".lr" -type "double3" -26.470509025805548 9.6894279972098918 -3.4200911432613146 ;
+	setAttr ".lr" -type "double3" -48.034273892666945 9.7088105978419019 -6.8071849467992962 ;
 	setAttr ".rst" -type "double3" 2.2204460492503131e-16 2.2204460492503131e-16 2.6645352591003757e-15 ;
 	setAttr ".rsrr" -type "double3" 2.5444437451708134e-14 -2.3754767777180642e-14 -5.5659706925611591e-15 ;
 	setAttr -k on ".w0";
@@ -497,7 +497,7 @@ createNode parentConstraint -n "polySurface10_parentConstraint1" -p "polySurface
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" -9.0936792066824133 1.5734445248841937 8.0689783064667466 ;
 	setAttr ".tg[0].tor" -type "double3" 0.43329888051722171 52.760205357448925 -179.45573574636919 ;
-	setAttr ".lr" -type "double3" -9.5111464169127853 -8.9787195356640073 9.5026429442128855 ;
+	setAttr ".lr" -type "double3" 25.833694335845014 -5.6734359285465912 1.9687585849858049 ;
 	setAttr ".rst" -type "double3" -8.8817841970012523e-16 -2.2204460492503131e-16 -1.7763568394002505e-15 ;
 	setAttr ".rsrr" -type "double3" 7.1562480332929135e-15 2.544443745170814e-14 -4.7708320221952744e-15 ;
 	setAttr -k on ".w0";
@@ -634,7 +634,7 @@ createNode parentConstraint -n "polySurface11_parentConstraint1" -p "polySurface
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 9.0357156803713732 -1.5734402317320599 -8.0249203588405784 ;
 	setAttr ".tg[0].tor" -type "double3" -0.43329888051754673 -52.760205357448953 0.54426425363119091 ;
-	setAttr ".lr" -type "double3" 6.6875504117623299 9.2290403985649014 5.2565846355213859 ;
+	setAttr ".lr" -type "double3" -21.319658181977861 11.70992414863824 -1.7534547027142318 ;
 	setAttr ".rst" -type "double3" 1.7763568394002505e-15 -2.2204460492503131e-16 -3.5527136788005009e-15 ;
 	setAttr ".rsrr" -type "double3" 1.5902773407317584e-15 6.2989891543046992e-15 7.9513867036587919e-16 ;
 	setAttr -k on ".w0";
@@ -713,7 +713,7 @@ createNode parentConstraint -n "polySurface12_parentConstraint1" -p "polySurface
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" -5.9847707588771266 1.6525878620825867 14.635070323452879 ;
 	setAttr ".tg[0].tor" -type "double3" 0.26224818616168888 0.97539713538566319 -179.79622734086095 ;
-	setAttr ".lr" -type "double3" -4.6903033029655647 -6.0094990549950582 29.374399559489689 ;
+	setAttr ".lr" -type "double3" 31.544515108663326 -11.192171415365902 14.03277319731678 ;
 	setAttr ".rst" -type "double3" 1.7763568394002505e-15 -4.4408920985006262e-16 1.7763568394002505e-15 ;
 	setAttr ".rsrr" -type "double3" -1.9878466759146928e-16 6.3611093629270335e-15 9.7280246702575526e-15 ;
 	setAttr -k on ".w0";
@@ -793,7 +793,7 @@ createNode parentConstraint -n "polySurface13_parentConstraint1" -p "polySurface
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 5.983534388547902 -1.6522561972848813 -14.562246389180434 ;
 	setAttr ".tg[0].tor" -type "double3" -0.26224818615582379 -0.97539713538567752 0.20377265913902262 ;
-	setAttr ".lr" -type "double3" 3.4484929370884894 7.7807970090122911 18.771841233300606 ;
+	setAttr ".lr" -type "double3" -28.041009600067603 13.867155566719948 4.0886719428337672 ;
 	setAttr ".rst" -type "double3" 8.8817841970012523e-16 -2.2204460492503131e-16 -1.7763568394002505e-15 ;
 	setAttr ".rsrr" -type "double3" 9.9392333795734887e-17 1.2722024600202122e-14 -1.2424041724466862e-16 ;
 	setAttr -k on ".w0";
@@ -872,7 +872,7 @@ createNode parentConstraint -n "polySurface14_parentConstraint1" -p "polySurface
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" -5.9609395491128048 -1.8696996046545074 -6.3827624583512117 ;
 	setAttr ".tg[0].tor" -type "double3" 179.99999909078585 -7.609329694246969 -178.74953965628555 ;
-	setAttr ".lr" -type "double3" 5.1365158463097229 -4.3197101600477081 22.448599130178888 ;
+	setAttr ".lr" -type "double3" 37.829286619967554 -15.534443138750037 11.986567330759026 ;
 	setAttr ".rst" -type "double3" -8.8817841970012523e-16 2.2204460492503131e-16 8.8817841970012523e-16 ;
 	setAttr ".rsrr" -type "double3" 3.1805546814635176e-15 1.2722218725854067e-14 5.9635400277440935e-15 ;
 	setAttr -k on ".w0";
@@ -951,7 +951,7 @@ createNode parentConstraint -n "polySurface15_parentConstraint1" -p "polySurface
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 5.9512951141683477 1.869489726911717 6.3105689245065344 ;
 	setAttr ".tg[0].tor" -type "double3" -179.99999909078599 7.609329694246985 1.2504603437142818 ;
-	setAttr ".lr" -type "double3" -18.731934582890453 17.930079611085056 16.736800301011094 ;
+	setAttr ".lr" -type "double3" -45.588936727155286 15.87299865960623 -0.88188258977667255 ;
 	setAttr ".rst" -type "double3" 8.8817841970012523e-16 -2.2204460492503131e-16 -8.8817841970012523e-16 ;
 	setAttr ".rsrr" -type "double3" 6.7586786981099735e-15 -2.6090487621380422e-16 1.5902773407317584e-15 ;
 	setAttr -k on ".w0";
@@ -1061,7 +1061,7 @@ createNode parentConstraint -n "polySurface16_parentConstraint1" -p "polySurface
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" -4.6926105488863126 2.5559280065152574 0.056756251025429777 ;
 	setAttr ".tg[0].tor" -type "double3" 0.16007043663103407 -0.67420848444116943 166.64380127085767 ;
-	setAttr ".lr" -type "double3" -7.0368374977408958 -1.8990804775242711 -14.81574816032119 ;
+	setAttr ".lr" -type "double3" 7.4060128505315787e-17 2.9307734563828339e-16 9.4386644751133666 ;
 	setAttr ".rst" -type "double3" 8.8817841970012523e-16 4.4408920985006262e-16 0 ;
 	setAttr ".rsrr" -type "double3" 1.4908850069360232e-16 -2.0689680640621531e-32 1.590238515601369e-14 ;
 	setAttr -k on ".w0";
@@ -1141,7 +1141,7 @@ createNode parentConstraint -n "polySurface17_parentConstraint1" -p "polySurface
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" -3.606747605784919 1.7134205535751019 21.135125351587451 ;
 	setAttr ".tg[0].tor" -type "double3" 0.26543653160675917 -14.31922408135409 -179.56887587410893 ;
-	setAttr ".lr" -type "double3" -29.340469299251208 -4.413658370676611 35.998997082002354 ;
+	setAttr ".lr" -type "double3" 26.142960884611675 -21.634434925219633 7.2973440033689494 ;
 	setAttr ".rsrr" -type "double3" 2.2860236773019022e-15 -6.3611093629270335e-15 8.6781931445401037e-15 ;
 	setAttr -k on ".w0";
 createNode scaleConstraint -n "polySurface17_scaleConstraint1" -p "polySurface17";
@@ -1219,7 +1219,7 @@ createNode parentConstraint -n "polySurface18_parentConstraint1" -p "polySurface
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 3.6247598621704591 -1.7129489748715807 -21.064541365944439 ;
 	setAttr ".tg[0].tor" -type "double3" -0.26543653161036029 14.319224081354104 0.43112412589345978 ;
-	setAttr ".lr" -type "double3" 10.887861332876072 18.472097493083389 33.047712823239678 ;
+	setAttr ".lr" -type "double3" -20.444192671710393 29.94329581283472 4.1063887904423853 ;
 	setAttr ".rst" -type "double3" -1.7763568394002505e-15 4.4408920985006262e-16 7.1054273576010019e-15 ;
 	setAttr ".rsrr" -type "double3" 2.4848083448933725e-17 -6.7350865143587649e-35 3.1060104311167167e-16 ;
 	setAttr -k on ".w0";
@@ -1359,7 +1359,7 @@ createNode parentConstraint -n "polySurface19_parentConstraint1" -p "polySurface
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" -9.4095182574667344 1.5646287529048386 13.39193931702308 ;
 	setAttr ".tg[0].tor" -type "double3" 0.28961197776751674 27.370594482802808 -179.37007828923871 ;
-	setAttr ".lr" -type "double3" -31.534869580821645 -14.158612466053663 19.505614951643036 ;
+	setAttr ".lr" -type "double3" 26.779534383567636 -16.589819498850467 -3.5189883799617889 ;
 	setAttr ".rst" -type "double3" 4.4408920985006262e-16 -8.8817841970012523e-16 1.0658141036401503e-14 ;
 	setAttr ".rsrr" -type "double3" -2.5345045117912405e-15 1.0634432202711912e-31 4.8081041473686758e-15 ;
 	setAttr -k on ".w0";
@@ -1496,7 +1496,7 @@ createNode parentConstraint -n "polySurface20_parentConstraint1" -p "polySurface
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 9.3760209859054342 -1.5646265025598813 -13.327240870106925 ;
 	setAttr ".tg[0].tor" -type "double3" -0.28961197776218622 -27.370594482802879 0.62992171075891368 ;
-	setAttr ".lr" -type "double3" 9.3367707133508198 21.261571788867869 16.959993045622362 ;
+	setAttr ".lr" -type "double3" -23.130373108234178 25.7756685686632 -7.8017349946718024 ;
 	setAttr ".rst" -type "double3" 0 -6.6613381477509392e-16 -3.5527136788005009e-15 ;
 	setAttr ".rsrr" -type "double3" 2.733289179382709e-16 1.2721587817485244e-14 -8.6968292071267987e-17 ;
 	setAttr -k on ".w0";
@@ -4678,7 +4678,7 @@ createNode script -n "uiConfigurationScriptNode";
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "262A2671-45A9-A16B-E35F-0DB650E2E313";
-	setAttr ".b" -type "string" "playbackOptions -min 1 -max 145 -ast 1 -aet 204 ";
+	setAttr ".b" -type "string" "playbackOptions -min 1 -max 177 -ast 1 -aet 204 ";
 	setAttr ".st" 6;
 createNode lambert -n "lambert2";
 	rename -uid "2E5A6418-4E96-F065-E53C-9085B6A20EDE";
@@ -10418,8 +10418,8 @@ createNode groupParts -n "groupParts9";
 	setAttr ".ihi" 0;
 	setAttr ".ic" -type "componentList" 1 "vtx[*]";
 select -ne :time1;
-	setAttr ".o" 40;
-	setAttr ".unw" 40;
+	setAttr ".o" 1;
+	setAttr ".unw" 1;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
