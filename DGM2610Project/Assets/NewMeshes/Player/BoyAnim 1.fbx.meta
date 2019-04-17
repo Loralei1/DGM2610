@@ -284,7 +284,7 @@ ModelImporter:
     4300040: pCube29
     4300042: pCube30
     4300044: pCube31
-    7400000: Run
+    7400000: Float
     7400002: Jump
     7400004: Landing
     7400006: TransitiontoClimb
@@ -322,10 +322,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Run
+      name: Float
       takeName: Take 001
-      firstFrame: 1
-      lastFrame: 23
+      firstFrame: 159
+      lastFrame: 176
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

@@ -4,15 +4,33 @@ using UnityEngine;
 
 public class PlayerAnimationHandler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public Animator playerAnimatorController; 
+    
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject.CompareTag("Ladder"))
+        {
+            playerAnimatorController.SetBool("ToClimb", true);
+        }
+
+        if (other.gameObject.CompareTag("Water"))
+        {
+            playerAnimatorController.SetBool("ToSwim", true);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit(Collider other)
     {
+        if (other.gameObject.CompareTag("Ladder"))
+        {
+            playerAnimatorController.SetBool("FromClimb", true);
+        }
         
+        if (other.gameObject.CompareTag("Water"))
+        {
+            playerAnimatorController.SetBool("ToSwim", true);
+        }
     }
+   
 }

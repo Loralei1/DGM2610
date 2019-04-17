@@ -16,6 +16,7 @@ TagManager:
   - bottle
   - Owl
   - Brick
+  - Ladder
   layers:
   - Default
   - TransparentFX

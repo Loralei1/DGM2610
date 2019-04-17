@@ -172,6 +172,9 @@
           <e p="Dockbits" t="Include">
             <e p="PLayTriggerAnim.cs" t="Include" />
           </e>
+          <e p="EnemyMesh" t="Include">
+            <e p="EnemyAnimationHandler.cs" t="Include" />
+          </e>
           <e p="LightBubble" t="Include">
             <e p="DestroyOnTrigger.cs" t="Include" />
           </e>
