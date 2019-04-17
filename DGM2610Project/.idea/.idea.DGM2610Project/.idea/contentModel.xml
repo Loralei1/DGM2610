@@ -175,6 +175,9 @@
           <e p="LightBubble" t="Include">
             <e p="DestroyOnTrigger.cs" t="Include" />
           </e>
+          <e p="Player" t="Include">
+            <e p="PlayerAnimationHandler.cs" t="Include" />
+          </e>
         </e>
         <e p="NewSpeed.cs" t="Include" />
         <e p="OnKeyEvent.cs" t="Include" />
