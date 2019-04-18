@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class DeathVolume : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private IEnumerator OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Death"))
         {
+            yield return new WaitForSeconds(2);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }

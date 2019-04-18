@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class EnemyAnimationHandler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    public Animator enemyAnimationController; 
+    
+    //public FloatData distance;
+
+    private void Start()
     {
-        
+        enemyAnimationController.SetBool("ToFlight", true);
+        enemyAnimationController.SetBool("ToAttack", false);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("Death"))
+        {
+            Debug.Log("PlayDeath");
+            enemyAnimationController.SetBool("ToAttack", true);
+            enemyAnimationController.SetBool("ToFlight", false);
+            
+            
+        }
+
+       
     }
 }

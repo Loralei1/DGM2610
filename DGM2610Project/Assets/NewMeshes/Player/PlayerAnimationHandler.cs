@@ -20,27 +20,38 @@ public class PlayerAnimationHandler : MonoBehaviour
             playerAnimatorController.SetBool("ToSwim", false);
             playerAnimatorController.SetBool("ToClimb", false);
             playerAnimatorController.SetBool("ToFloat", false);
-           
-           
+            playerAnimatorController.SetBool("ToFall", false);
+            playerAnimatorController.SetBool("ToJump", false);
+            //playerAnimatorController.SetBool("BackToRun", true);
+
         }
 
-       /* if (Input.GetButton("Horizontal") == false && !controller.isGrounded)
+        else
         {
-            playerAnimatorController.SetBool("FromRun", true);   
+            playerAnimatorController.SetBool("ToRun", false);
+            playerAnimatorController.SetBool("FromRun", true);
         }
-        */
+
+        if (!controller.isGrounded && playerAnimatorController.GetBool("ToJump") == false && playerAnimatorController.GetBool("ToClimb") == false
+            && playerAnimatorController.GetBool("ToSwim") == false && playerAnimatorController.GetBool("ToLand") == false)
+        {
+            playerAnimatorController.SetBool("ToRun", false);
+            playerAnimatorController.SetBool("ToFall", true);   
+        }
+        
         
 
-        if (Input.GetButton("Jump"))
+        if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
+            playerAnimatorController.SetBool("ToRun", false);
             playerAnimatorController.SetBool("ToJump",true);
         }
 
-        if (Input.GetButton("Jump") == false && Input.GetButton("Horizontal") == false && !controller.isGrounded)
-        {
-            playerAnimatorController.SetBool("ToFall",true);
-        }
+        
+        
     }
+    
+   
 
     private void OnTriggerEnter(Collider other)
     {
@@ -98,6 +109,7 @@ public class PlayerAnimationHandler : MonoBehaviour
 
         if (Input.GetButton("Horizontal") && controller.isGrounded)
         {
+            playerAnimatorController.SetBool("ToRun", true);
             playerAnimatorController.SetBool("ToLand", true);
         }
            
