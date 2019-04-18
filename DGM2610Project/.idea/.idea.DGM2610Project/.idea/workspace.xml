@@ -23,24 +23,27 @@
       <file leaf-file-name="PlayerAnimationHandler.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/NewMeshes/Player/PlayerAnimationHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="315">
+              <caret line="66" column="60" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
               <folding>
-                <marker date="1555607161189" expanded="false" signature="6:121" ph="..." />
-                <marker date="1555607161189" expanded="true" signature="174:2270" ph="{...}" />
-                <marker date="1555607161189" expanded="true" signature="294:1109" ph="{...}" />
-                <marker date="1555607161189" expanded="true" signature="369:601" ph="{...}" />
-                <marker date="1555607161189" expanded="true" signature="610:779" ph="/* if (Input.GetButton(&quot;Horizontal&quot;) == false &amp;&amp; !controller.isGrounded) ... */" />
-                <marker date="1555607161189" expanded="true" signature="826:907" ph="{...}" />
-                <marker date="1555607161189" expanded="true" signature="1022:1103" ph="{...}" />
-                <marker date="1555607161189" expanded="true" signature="1158:1631" ph="{...}" />
-                <marker date="1555607161189" expanded="true" signature="1246:1427" ph="{...}" />
-                <marker date="1555607161189" expanded="true" signature="1478:1625" ph="{...}" />
-                <marker date="1555607161189" expanded="true" signature="1679:2033" ph="{...}" />
-                <marker date="1555607161189" expanded="true" signature="1736:1821" ph="{...}" />
-                <marker date="1555607161189" expanded="true" signature="1880:2027" ph="{...}" />
-                <marker date="1555607161189" expanded="true" signature="2085:2268" ph="{...}" />
-                <marker date="1555607161189" expanded="true" signature="2160:2242" ph="{...}" />
+                <marker date="1555609976089" expanded="false" signature="6:121" ph="..." />
+                <marker date="1555609976089" expanded="true" signature="174:3030" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="327:1270" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="402:762" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="771:940" ph="/* if (Input.GetButton(&quot;Horizontal&quot;) == false &amp;&amp; !controller.isGrounded) ... */" />
+                <marker date="1555609976089" expanded="true" signature="987:1068" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="1183:1264" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="1319:2322" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="1407:1588" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="1639:1786" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="1838:1888" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="1961:2106" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="2171:2316" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="2375:2793" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="2432:2581" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="2640:2787" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="2845:3028" ph="{...}" />
+                <marker date="1555609976089" expanded="true" signature="2920:3002" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -289,12 +292,12 @@
       <workItem from="1555482259802" duration="598000" />
       <workItem from="1555533871227" duration="1499000" />
       <workItem from="1555601203749" duration="3215000" />
-      <workItem from="1555605360824" duration="1799000" />
+      <workItem from="1555605360824" duration="4646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93791000" />
+    <option name="totallyTimeSpent" value="96638000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,7 +309,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="140" width="1490" height="780" extended-state="1" />
+    <frame x="102" y="140" width="1490" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -361,21 +364,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1555607161189" expanded="false" signature="6:121" ph="..." />
-            <marker date="1555607161189" expanded="true" signature="174:2270" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="294:1109" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="369:601" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="610:779" ph="/* if (Input.GetButton(&quot;Horizontal&quot;) == false &amp;&amp; !controller.isGrounded) ... */" />
-            <marker date="1555607161189" expanded="true" signature="826:907" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1022:1103" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1158:1631" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1246:1427" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1478:1625" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1679:2033" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1736:1821" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1880:2027" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="2085:2268" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="2160:2242" ph="{...}" />
+            <marker date="1555609976089" expanded="false" signature="6:121" ph="..." />
+            <marker date="1555609976089" expanded="true" signature="174:3030" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="327:1270" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="402:762" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="771:940" ph="/* if (Input.GetButton(&quot;Horizontal&quot;) == false &amp;&amp; !controller.isGrounded) ... */" />
+            <marker date="1555609976089" expanded="true" signature="987:1068" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="1183:1264" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="1319:2322" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="1407:1588" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="1639:1786" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="1838:1888" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="1961:2106" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="2171:2316" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="2375:2793" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="2432:2581" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="2640:2787" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="2845:3028" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="2920:3002" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -633,24 +639,27 @@
     <entry file="file://$PROJECT_DIR$/Assets/NewMeshes/Dockbits/PLayTriggerAnim.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/NewMeshes/Player/PlayerAnimationHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="315">
+          <caret line="66" column="60" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
           <folding>
-            <marker date="1555607161189" expanded="false" signature="6:121" ph="..." />
-            <marker date="1555607161189" expanded="true" signature="174:2270" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="294:1109" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="369:601" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="610:779" ph="/* if (Input.GetButton(&quot;Horizontal&quot;) == false &amp;&amp; !controller.isGrounded) ... */" />
-            <marker date="1555607161189" expanded="true" signature="826:907" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1022:1103" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1158:1631" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1246:1427" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1478:1625" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1679:2033" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1736:1821" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="1880:2027" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="2085:2268" ph="{...}" />
-            <marker date="1555607161189" expanded="true" signature="2160:2242" ph="{...}" />
+            <marker date="1555609976089" expanded="false" signature="6:121" ph="..." />
+            <marker date="1555609976089" expanded="true" signature="174:3030" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="327:1270" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="402:762" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="771:940" ph="/* if (Input.GetButton(&quot;Horizontal&quot;) == false &amp;&amp; !controller.isGrounded) ... */" />
+            <marker date="1555609976089" expanded="true" signature="987:1068" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="1183:1264" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="1319:2322" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="1407:1588" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="1639:1786" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="1838:1888" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="1961:2106" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="2171:2316" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="2375:2793" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="2432:2581" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="2640:2787" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="2845:3028" ph="{...}" />
+            <marker date="1555609976089" expanded="true" signature="2920:3002" ph="{...}" />
           </folding>
         </state>
       </provider>

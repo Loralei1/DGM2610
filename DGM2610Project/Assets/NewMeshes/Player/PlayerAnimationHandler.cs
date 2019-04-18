@@ -7,7 +7,8 @@ public class PlayerAnimationHandler : MonoBehaviour
 {
 
     public Animator playerAnimatorController;
-    public CharacterController controller; 
+    public CharacterController controller;
+    public bool canFloat = false;
 
     private void Update()
     {
@@ -17,6 +18,8 @@ public class PlayerAnimationHandler : MonoBehaviour
             playerAnimatorController.SetBool("ToRun", true);
             playerAnimatorController.SetBool("FromRun", false);
             playerAnimatorController.SetBool("ToSwim", false);
+            playerAnimatorController.SetBool("ToClimb", false);
+            playerAnimatorController.SetBool("ToFloat", false);
            
            
         }
@@ -53,7 +56,27 @@ public class PlayerAnimationHandler : MonoBehaviour
             playerAnimatorController.SetBool("FromSwim", false);
             playerAnimatorController.SetBool("ToSwim", true);
         }
+
+        if (other.gameObject.CompareTag("Pickup"))
+        {
+            canFloat = true; 
+        }
+        
+        if (other.gameObject.CompareTag("Trigger") && canFloat)
+        {
+            playerAnimatorController.SetBool("ToRun", false);
+            playerAnimatorController.SetBool("ToFloat", true);
+        }
+
+       
+
+        if (other.gameObject.CompareTag("UnTrigger")) 
+        {
+            playerAnimatorController.SetBool("ToFloat", false);
+            playerAnimatorController.SetBool("ToRun", true);
+        }
     }
+    
 
     private void OnTriggerExit(Collider other)
     {
