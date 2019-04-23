@@ -10,6 +10,12 @@ public class PlayerAnimationHandler : MonoBehaviour
     public CharacterController controller;
     public bool canFloat = false;
 
+
+    private void Start()
+    {
+        playerAnimatorController.SetBool("ToDie", false);
+    }
+
     private void Update()
     {
 
@@ -22,6 +28,7 @@ public class PlayerAnimationHandler : MonoBehaviour
             playerAnimatorController.SetBool("ToFloat", false);
             playerAnimatorController.SetBool("ToFall", false);
             playerAnimatorController.SetBool("ToJump", false);
+            playerAnimatorController.SetBool("ToLand", true);
             //playerAnimatorController.SetBool("BackToRun", true);
 
         }
@@ -29,8 +36,11 @@ public class PlayerAnimationHandler : MonoBehaviour
         else
         {
             playerAnimatorController.SetBool("ToRun", false);
-            playerAnimatorController.SetBool("FromRun", true);
+           
+            //playerAnimatorController.SetBool("FromRun", true);
         }
+
+        
 
         if (!controller.isGrounded && playerAnimatorController.GetBool("ToJump") == false && playerAnimatorController.GetBool("ToClimb") == false
             && playerAnimatorController.GetBool("ToSwim") == false && playerAnimatorController.GetBool("ToLand") == false)
@@ -41,10 +51,11 @@ public class PlayerAnimationHandler : MonoBehaviour
         
         
 
-        if (Input.GetButtonDown("Jump") && controller.isGrounded)
+        if (Input.GetButtonDown("Jump"))
         {
             playerAnimatorController.SetBool("ToRun", false);
             playerAnimatorController.SetBool("ToJump",true);
+            playerAnimatorController.SetBool("ToLand", false);
         }
 
         
@@ -55,11 +66,16 @@ public class PlayerAnimationHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Ladder") && Input.GetButton("Vertical"))
+        if (other.gameObject.CompareTag("Ladder"))
         {
             Debug.Log("Climb");
             playerAnimatorController.SetBool("FromClimb", false);
             playerAnimatorController.SetBool("ToClimb", true);
+            playerAnimatorController.SetBool("BackToRun", false);
+        }
+        else
+        {
+             playerAnimatorController.SetBool("BackToRun", true);
         }
 
         if (other.gameObject.CompareTag("Water"))
@@ -86,6 +102,16 @@ public class PlayerAnimationHandler : MonoBehaviour
             playerAnimatorController.SetBool("ToFloat", false);
             playerAnimatorController.SetBool("ToRun", true);
         }
+
+        if (other.gameObject.CompareTag("Death"))
+        {
+            playerAnimatorController.SetBool("ToDie", true);
+        }
+
+        if (other.gameObject.CompareTag("Hazard"))
+        {
+            playerAnimatorController.SetBool("ToHurt", true);
+        }
     }
     
 
@@ -102,17 +128,24 @@ public class PlayerAnimationHandler : MonoBehaviour
             playerAnimatorController.SetBool("ToSwim", false);
             playerAnimatorController.SetBool("FromSwim", true);
         }
+
+        if (other.gameObject.CompareTag("Hazard"))
+        {
+            playerAnimatorController.SetBool("ToHurt", false);
+        }
     }
 
-    private void OnCollisionEnter(Collision other)
+    /*private void OnCollisionEnter(Collision other)
     {
 
-        if (Input.GetButton("Horizontal") && controller.isGrounded)
+        if (controller.isGrounded)
         {
-            playerAnimatorController.SetBool("ToRun", true);
+           
             playerAnimatorController.SetBool("ToLand", true);
         }
            
        
-    }
+    }*/
+    
+    
 }

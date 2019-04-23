@@ -17,6 +17,7 @@ TagManager:
   - Owl
   - Brick
   - Ladder
+  - Hazard
   layers:
   - Default
   - TransparentFX
