@@ -50,7 +50,7 @@ public class HealthBar : MonoBehaviour
 
     {
 
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && healthbar.fillAmount >= 0)
 
         {
 

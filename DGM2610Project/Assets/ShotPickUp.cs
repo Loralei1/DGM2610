@@ -14,7 +14,7 @@ public class ShotPickUp : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
 
         {
-            shotCount.value = shotCount.value + 10; 
+            shotCount.value = shotCount.value = 10; 
             gameObject.SetActive(false);
             FireFly.fillAmount = FireFly.fillAmount + 1;
             fireFlyLight.intensity = 1; 
