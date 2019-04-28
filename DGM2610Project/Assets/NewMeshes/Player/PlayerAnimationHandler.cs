@@ -39,14 +39,6 @@ public class PlayerAnimationHandler : MonoBehaviour
            
             //playerAnimatorController.SetBool("FromRun", true);
         }
-
-        
-
-        if (!controller.isGrounded && controller.translate.y <= 0)
-        {
-            playerAnimatorController.SetBool("ToRun", false);
-            playerAnimatorController.SetBool("ToFall", true);   
-        }
         
         
 
@@ -86,6 +78,13 @@ public class PlayerAnimationHandler : MonoBehaviour
         if (other.gameObject.CompareTag("Pickup"))
         {
             canFloat = true; 
+        }
+        
+        if (other.gameObject.CompareTag("FallTrigger"))
+        {
+            Debug.Log("Fall");
+            playerAnimatorController.SetBool("ToRun", false);
+            playerAnimatorController.SetBool("ToFall", true);   
         }
         
         if (other.gameObject.CompareTag("Trigger") && canFloat)

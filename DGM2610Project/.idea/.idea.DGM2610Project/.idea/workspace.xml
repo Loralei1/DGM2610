@@ -23,8 +23,32 @@
       <file leaf-file-name="PlayerAnimationHandler.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/NewMeshes/Player/PlayerAnimationHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+            <state relative-caret-position="287">
+              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+              <folding>
+                <marker date="1556484902796" expanded="false" signature="6:121" ph="..." />
+                <marker date="1556484902796" expanded="true" signature="174:4095" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="327:397" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="424:1555" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="499:1091" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="1105:1264" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="1324:1530" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="1613:3259" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="1670:1917" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="1930:2016" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="2067:2214" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="2266:2316" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="2381:2559" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="2632:2777" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="2842:2987" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="3038:3119" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="3171:3253" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="3312:3865" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="3369:3518" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="3577:3724" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="3776:3859" ph="{...}" />
+                <marker date="1556484902796" expanded="true" signature="3871:4083" ph="/* private void OnCollisionEnter(Collision other) ... */" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,17 +129,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/IceSpeed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FloatInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HealthBar.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NewSpeed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DrowingCountDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MoveBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Run.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LightningTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DeathVolume.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DeathVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MakeActiveTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ImageFill.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Distance.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ReverseTrapdoor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Distance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ReverseTrapdoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Icebox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UpdatePattern.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DoubleJumpChange.cs" root0="FORCE_HIGHLIGHTING" />
@@ -123,24 +147,24 @@
     <setting file="file://$PROJECT_DIR$/Assets/CountDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TransferTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnKeyEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Hazard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hazard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HazardDeath.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PrefabHealthBar.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PrefabHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BreakApart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnTriggerExitEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NewMeshes/Player/PlayerAnimationHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NewMeshes/Player/PlayerAnimationHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ShotMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FireList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shoot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FloatChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MovePattern.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ShotPickUp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ShotPickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LightningPickUp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnemyStayAway.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Trapdoor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NewMeshes/EnemyMesh/EnemyAnimationHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NewMeshes/EnemyMesh/EnemyAnimationHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/KeyGrab.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BackToWalk.cs" root0="FORCE_HIGHLIGHTING" />
@@ -229,7 +253,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -242,6 +265,7 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,11 +335,12 @@
       <workItem from="1556050704486" duration="599000" />
       <workItem from="1556218788310" duration="2157000" />
       <workItem from="1556479826494" duration="917000" />
+      <workItem from="1556481463583" duration="2011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112788000" />
+    <option name="totallyTimeSpent" value="114799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,6 +353,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="102" y="140" width="1490" height="780" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -336,13 +362,13 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30769232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3118881" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -633,8 +659,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/NewMeshes/Player/PlayerAnimationHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        <state relative-caret-position="287">
+          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+          <folding>
+            <marker date="1556484902796" expanded="false" signature="6:121" ph="..." />
+            <marker date="1556484902796" expanded="true" signature="174:4095" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="327:397" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="424:1555" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="499:1091" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="1105:1264" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="1324:1530" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="1613:3259" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="1670:1917" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="1930:2016" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="2067:2214" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="2266:2316" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="2381:2559" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="2632:2777" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="2842:2987" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="3038:3119" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="3171:3253" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="3312:3865" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="3369:3518" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="3577:3724" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="3776:3859" ph="{...}" />
+            <marker date="1556484902796" expanded="true" signature="3871:4083" ph="/* private void OnCollisionEnter(Collision other) ... */" />
+          </folding>
         </state>
       </provider>
     </entry>

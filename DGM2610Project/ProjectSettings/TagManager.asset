@@ -18,6 +18,7 @@ TagManager:
   - Brick
   - Ladder
   - Hazard
+  - FallTrigger
   layers:
   - Default
   - TransparentFX
