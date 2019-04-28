@@ -19,4 +19,4 @@ MonoBehaviour:
   MoveZ: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
   RotX: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
   RotY: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
-  RotZ: {fileID: 11400000, guid: d2e2ca6a800695245b11a7ad669502c4, type: 2}
+  RotZ: {fileID: 11400000, guid: 518f466fc637f0b4a8d6233357422e30, type: 2}
