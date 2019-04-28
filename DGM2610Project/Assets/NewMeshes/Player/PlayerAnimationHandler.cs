@@ -42,8 +42,7 @@ public class PlayerAnimationHandler : MonoBehaviour
 
         
 
-        if (!controller.isGrounded && playerAnimatorController.GetBool("ToJump") == false && playerAnimatorController.GetBool("ToClimb") == false
-            && playerAnimatorController.GetBool("ToSwim") == false && playerAnimatorController.GetBool("ToLand") == false)
+        if (!controller.isGrounded && controller.translate.y <= 0)
         {
             playerAnimatorController.SetBool("ToRun", false);
             playerAnimatorController.SetBool("ToFall", true);   
