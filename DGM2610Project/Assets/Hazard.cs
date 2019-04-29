@@ -8,6 +8,10 @@ public class Hazard : MonoBehaviour
 {
     public FloatData playerHealth;
 
+    private void Start()
+    {
+        playerHealth.value = 100;
+    }
 
     public enum hazards
 
@@ -69,14 +73,7 @@ public class Hazard : MonoBehaviour
 
 
 
-                case (hazards.lightning):
-
-                    playerHealth.value = playerHealth.value - 15;
-
-
-
-                    break;
-
+                
 
 
                 case (hazards.owl):
