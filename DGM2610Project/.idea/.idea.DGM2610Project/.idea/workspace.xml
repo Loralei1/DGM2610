@@ -182,12 +182,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <marker date="1556513498563" expanded="false" signature="6:104" ph="..." />
-                <marker date="1556513498563" expanded="true" signature="146:349" ph="{...}" />
-                <marker date="1556513498563" expanded="true" signature="227:347" ph="{...}" />
-                <marker date="1556513498563" expanded="true" signature="284:332" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -195,14 +189,8 @@
       <file leaf-file-name="DeathEvent.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/DeathEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="180">
               <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-              <folding>
-                <marker date="1556515116303" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556515116303" expanded="true" signature="145:347" ph="{...}" />
-                <marker date="1556515116303" expanded="true" signature="226:345" ph="{...}" />
-                <marker date="1556515116303" expanded="true" signature="282:330" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -321,7 +309,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-31" />
     <option name="y" value="381" />
     <option name="width" value="1490" />
@@ -420,12 +408,12 @@
       <workItem from="1556218788310" duration="2157000" />
       <workItem from="1556479826494" duration="917000" />
       <workItem from="1556481463583" duration="5800000" />
-      <workItem from="1556511214839" duration="1879000" />
+      <workItem from="1556511214839" duration="2475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120467000" />
+    <option name="totallyTimeSpent" value="121063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,8 +425,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-31" y="381" width="1490" height="780" extended-state="1" />
-    <editor active="true" />
+    <frame x="-31" y="381" width="1490" height="780" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -843,25 +830,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <marker date="1556513498563" expanded="false" signature="6:104" ph="..." />
-            <marker date="1556513498563" expanded="true" signature="146:349" ph="{...}" />
-            <marker date="1556513498563" expanded="true" signature="227:347" ph="{...}" />
-            <marker date="1556513498563" expanded="true" signature="284:332" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/DeathEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="180">
           <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <marker date="1556515116303" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556515116303" expanded="true" signature="145:347" ph="{...}" />
-            <marker date="1556515116303" expanded="true" signature="226:345" ph="{...}" />
-            <marker date="1556515116303" expanded="true" signature="282:330" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
