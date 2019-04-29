@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 
 public class Hazard : MonoBehaviour
 {
@@ -30,17 +32,13 @@ public class Hazard : MonoBehaviour
     public hazards hazardname;
 
 
-
-    private void Start()
-
+    private void Update()
     {
-
-        playerHealth.value = 100;
-
+        if (playerHealth.value > 100)
+        {
+            playerHealth.value = 100;
+        }
     }
-
-
-
 
 
     void OnTriggerEnter(Collider other)
@@ -49,7 +47,7 @@ public class Hazard : MonoBehaviour
 
     {
 
-        if (other.gameObject.CompareTag("Player") && playerHealth.value <= 100)
+        if (other.gameObject.CompareTag("Player"))
 
         {
 
@@ -100,11 +98,7 @@ public class Hazard : MonoBehaviour
 
                     playerHealth.value = playerHealth.value + 5;
                     break; 
-                
-                case (hazards.extrahealthPotion):
-
-                    playerHealth.value = playerHealth.value + 10;
-                    break; 
+                 
 
 
 
@@ -113,6 +107,18 @@ public class Hazard : MonoBehaviour
             }
 
         }
+
+        if (other.CompareTag("Player") && playerHealth.value < 100)
+        {
+            switch (hazardname)
+            {
+                    case (hazards.extrahealthPotion):
+
+                        playerHealth.value = playerHealth.value + 10;
+                        break; 
+            }
+        }        
+        
 
 
     }

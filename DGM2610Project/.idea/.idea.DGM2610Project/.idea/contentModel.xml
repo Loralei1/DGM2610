@@ -137,16 +137,11 @@
             </e>
           </e>
         </e>
-        <e p="CountDown.cs" t="Include" />
-        <e p="CountDownDisplay.cs" t="Include" />
         <e p="DeathVolume.cs" t="Include" />
         <e p="Distance.cs" t="Include" />
         <e p="DoubleJumpChange.cs" t="Include" />
         <e p="DrowingCountDown.cs" t="Include" />
         <e p="EnemyFollow.cs" t="Include" />
-        <e p="EnemyLightning.cs" t="Include" />
-        <e p="EnemyStayAway.cs" t="Include" />
-        <e p="FireList.cs" t="Include" />
         <e p="FloatChange.cs" t="Include" />
         <e p="FloatData.cs" t="Include" />
         <e p="FloatInput.cs" t="Include" />

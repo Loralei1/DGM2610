@@ -10,7 +10,7 @@ public class HazardDeath : MonoBehaviour
 
     private void Update()
     {
-        if (drowningTime.value == 0 || playerHealth.value == 0)
+        if (drowningTime.value == 0 || playerHealth.value <= 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
