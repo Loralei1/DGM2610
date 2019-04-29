@@ -86,21 +86,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 536745900, guid: b994aaacb1245134f9c3be847042a6c1, type: 3}
-      propertyPath: m_Mass
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 536745900, guid: b994aaacb1245134f9c3be847042a6c1, type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 536745901, guid: b994aaacb1245134f9c3be847042a6c1, type: 3}
-      propertyPath: Speed
-      value: -14
-      objectReference: {fileID: 0}
     - target: {fileID: 536745896, guid: b994aaacb1245134f9c3be847042a6c1, type: 3}
       propertyPath: m_TagString
-      value: Owl
+      value: Hazard
       objectReference: {fileID: 0}
     - target: {fileID: 536745905, guid: b994aaacb1245134f9c3be847042a6c1, type: 3}
       propertyPath: m_Size.z
@@ -121,6 +109,18 @@ PrefabInstance:
     - target: {fileID: 536745905, guid: b994aaacb1245134f9c3be847042a6c1, type: 3}
       propertyPath: m_Size.y
       value: 3.567517
+      objectReference: {fileID: 0}
+    - target: {fileID: 536745900, guid: b994aaacb1245134f9c3be847042a6c1, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 536745900, guid: b994aaacb1245134f9c3be847042a6c1, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 536745901, guid: b994aaacb1245134f9c3be847042a6c1, type: 3}
+      propertyPath: Speed
+      value: -14
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 536745904, guid: b994aaacb1245134f9c3be847042a6c1, type: 3}

@@ -11,37 +11,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlayerAnimationHandler.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/NewMeshes/Player/PlayerAnimationHandler.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReverseTrapdoor.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ReverseTrapdoor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShotPickUp.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ShotPickUp.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Hazard.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Hazard.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
+            <state relative-caret-position="570">
               <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
             </state>
           </provider>
@@ -50,7 +23,7 @@
       <file leaf-file-name="HazardDeath.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/HazardDeath.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="180">
               <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
             </state>
           </provider>
@@ -59,7 +32,7 @@
       <file leaf-file-name="OnTriggerEvent.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="180">
               <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
             </state>
           </provider>
@@ -82,7 +55,7 @@
       <file leaf-file-name="CinemachineVirtualCameraEditor.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Cinemachine/Base/Editor/Editors/CinemachineVirtualCameraEditor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3223">
+            <state>
               <folding>
                 <marker date="1512069158000" expanded="false" signature="6:137" ph="..." />
                 <marker date="1512069158000" expanded="true" signature="167:18048" ph="{...}" />
@@ -152,7 +125,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CinemachineVirtualCameraBaseEditor.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CinemachineVirtualCameraBaseEditor.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Cinemachine/Base/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -186,6 +159,54 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MakeInactiveTimer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SplashTrigger.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/SplashTrigger.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HazardEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/HazardEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <marker date="1556513498563" expanded="false" signature="6:104" ph="..." />
+                <marker date="1556513498563" expanded="true" signature="146:349" ph="{...}" />
+                <marker date="1556513498563" expanded="true" signature="227:347" ph="{...}" />
+                <marker date="1556513498563" expanded="true" signature="284:332" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeathEvent.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/DeathEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <folding>
+                <marker date="1556515116303" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556515116303" expanded="true" signature="145:347" ph="{...}" />
+                <marker date="1556515116303" expanded="true" signature="226:345" ph="{...}" />
+                <marker date="1556515116303" expanded="true" signature="282:330" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -196,14 +217,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/FloatInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HazInstant.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NewSpeed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DrowingCountDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MoveBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Run.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LightningTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DeathVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MakeActiveTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ImageFill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SplashTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Distance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ReverseTrapdoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Icebox.cs" root0="FORCE_HIGHLIGHTING" />
@@ -211,7 +229,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/DoubleJumpChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnTriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TransferTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnKeyEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Cinemachine/Base/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Hazard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Cinemachine/Base/Editor/Editors/CinemachineVirtualCameraEditor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -222,11 +239,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/NewMeshes/Player/PlayerAnimationHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ShotMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DeathEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FloatChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MovePattern.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HazardEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ShotPickUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ShotPickUp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LightningPickUp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Trapdoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NewMeshes/EnemyMesh/EnemyAnimationHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -239,8 +258,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/OnKeyEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/DoubleJumpChange.cs" />
         <option value="$PROJECT_DIR$/Assets/UpdatePattern.cs" />
         <option value="$PROJECT_DIR$/Assets/BackToWalk.cs" />
         <option value="$PROJECT_DIR$/Assets/OnTriggerExitEvent.cs" />
@@ -254,7 +271,6 @@
         <option value="$PROJECT_DIR$/Assets/FlockFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/ShotMove.cs" />
         <option value="$PROJECT_DIR$/Assets/MakeActiveTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/SplashTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/OnTriggerEnterEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/NewSpeed.cs" />
@@ -290,6 +306,9 @@
         <option value="$PROJECT_DIR$/Assets/Hazard.cs" />
         <option value="$PROJECT_DIR$/Assets/HazardDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/OnTriggerEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/SplashTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/HazardEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/DeathEvent.cs" />
       </list>
     </option>
   </component>
@@ -302,7 +321,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-31" />
     <option name="y" value="381" />
     <option name="width" value="1490" />
@@ -318,6 +337,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -330,7 +350,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,11 +420,12 @@
       <workItem from="1556218788310" duration="2157000" />
       <workItem from="1556479826494" duration="917000" />
       <workItem from="1556481463583" duration="5800000" />
+      <workItem from="1556511214839" duration="1879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118588000" />
+    <option name="totallyTimeSpent" value="120467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,7 +437,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-31" y="381" width="1490" height="780" extended-state="0" />
+    <frame x="-31" y="381" width="1490" height="780" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -426,7 +447,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3118881" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3160839" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -453,20 +474,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/MovePatternChange.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TransferTrigger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/OnTriggerExitEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -547,8 +554,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TrickStairs.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/CountDownDisplay.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/FlockFollow.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/SplashTrigger.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/KeyGrab.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -565,13 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CountDown.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CountDown.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/SlowPoison.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/TransferTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -595,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LightningTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -616,13 +608,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EnemyStayAway.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyStayAway.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/IceSpeed.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -690,39 +676,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/NewMeshes/Player/PlayerAnimationHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
+        <state relative-caret-position="1230">
           <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Hazard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
+        <state relative-caret-position="570">
           <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/HazardDeath.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="180">
           <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="180">
           <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FireList.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FireList.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/HazInstant.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -737,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Cinemachine/Base/Editor/Editors/CinemachineVirtualCameraEditor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3223">
+        <state>
           <folding>
             <marker date="1512069158000" expanded="false" signature="6:137" ph="..." />
             <marker date="1512069158000" expanded="true" signature="167:18048" ph="{...}" />
@@ -834,6 +814,53 @@
             <marker date="1512069128000" expanded="true" signature="6562:6771" ph="{...}" />
             <marker date="1512069128000" expanded="true" signature="6936:7145" ph="{...}" />
             <marker date="1512069128000" expanded="true" signature="7211:8358" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FlockFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="27" selection-start-line="6" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SplashTrigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HazardEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <marker date="1556513498563" expanded="false" signature="6:104" ph="..." />
+            <marker date="1556513498563" expanded="true" signature="146:349" ph="{...}" />
+            <marker date="1556513498563" expanded="true" signature="227:347" ph="{...}" />
+            <marker date="1556513498563" expanded="true" signature="284:332" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DeathEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <marker date="1556515116303" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556515116303" expanded="true" signature="145:347" ph="{...}" />
+            <marker date="1556515116303" expanded="true" signature="226:345" ph="{...}" />
+            <marker date="1556515116303" expanded="true" signature="282:330" ph="{...}" />
           </folding>
         </state>
       </provider>
