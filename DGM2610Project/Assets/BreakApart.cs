@@ -6,7 +6,13 @@ public class BreakApart : MonoBehaviour
 {
     public GameObject objectOne;
     public GameObject objectTwo;
-    public Transform transform; 
+    public Transform transform;
+    public AudioSource clatter;
+
+    private void Start()
+    {
+        clatter = GetComponent<AudioSource>();
+    }
 
 
     private void OnTriggerEnter(Collider other)
@@ -15,6 +21,7 @@ public class BreakApart : MonoBehaviour
         {
             objectOne.SetActive(false);
             Instantiate(objectTwo, transform.position, transform.rotation);
+            clatter.Play();
         }
     }
 }

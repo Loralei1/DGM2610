@@ -9,7 +9,9 @@ public class PlayerAnimationHandler : MonoBehaviour
     public Animator playerAnimatorController;
     public CharacterController controller;
     public bool canFloat = false;
-
+    public FloatData drowningTime;
+    public FloatData playerHealth;
+    
 
     private void Start()
     {
@@ -47,6 +49,11 @@ public class PlayerAnimationHandler : MonoBehaviour
             playerAnimatorController.SetBool("ToRun", false);
             playerAnimatorController.SetBool("ToJump",true);
             playerAnimatorController.SetBool("ToLand", false);
+        }
+
+        if (drowningTime.value == 0 || playerHealth.value <= 0)
+        {
+            playerAnimatorController.SetBool("ToDie", true);
         }
 
         
