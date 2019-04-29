@@ -31,6 +31,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6190228746137273669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2706375608937925675}
+  - component: {fileID: 5815822957216598558}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Owl
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2706375608937925675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6190228746137273669}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3, y: 5.99, z: 29.32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1198733649432330233}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5815822957216598558
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6190228746137273669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.161784, y: 3.0835345, z: 16.375885}
+  m_Center: {x: -0.018439243, y: 0.5590371, z: 1.0736808}
 --- !u!1001 &1198733649609402448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -128,6 +172,12 @@ PrefabInstance:
 --- !u!4 &1198733648833591785 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 843977145, guid: b994aaacb1245134f9c3be847042a6c1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1198733649609402448}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1198733649432330233 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 536745897, guid: b994aaacb1245134f9c3be847042a6c1,
     type: 3}
   m_PrefabInstance: {fileID: 1198733649609402448}
   m_PrefabAsset: {fileID: 0}
