@@ -70,11 +70,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <marker date="1556686622411" expanded="false" signature="6:113" ph="..." />
-                <marker date="1556686622411" expanded="true" signature="153:275" ph="{...}" />
-                <marker date="1556686622411" expanded="true" signature="183:273" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -84,11 +79,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <marker date="1556686964171" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556686964171" expanded="true" signature="157:275" ph="{...}" />
-                <marker date="1556686964171" expanded="true" signature="183:273" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -96,12 +86,12 @@
       <file leaf-file-name="LoadLastScene.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/LoadLastScene.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+            <state relative-caret-position="135">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <marker date="1556687403225" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556687403225" expanded="true" signature="157:279" ph="{...}" />
-                <marker date="1556687403225" expanded="true" signature="187:277" ph="{...}" />
+                <marker date="1556687515252" expanded="false" signature="6:113" ph="..." />
+                <marker date="1556687515252" expanded="true" signature="157:277" ph="{...}" />
+                <marker date="1556687515252" expanded="true" signature="185:275" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -337,12 +327,12 @@
       <workItem from="1556557583418" duration="3338000" />
       <workItem from="1556561919215" duration="2300000" />
       <workItem from="1556632853412" duration="1590000" />
-      <workItem from="1556672984436" duration="5342000" />
+      <workItem from="1556672984436" duration="6048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133633000" />
+    <option name="totallyTimeSpent" value="134339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,7 +345,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="127" width="1490" height="780" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -617,11 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <marker date="1556686622411" expanded="false" signature="6:113" ph="..." />
-            <marker date="1556686622411" expanded="true" signature="153:275" ph="{...}" />
-            <marker date="1556686622411" expanded="true" signature="183:273" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,22 +613,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <marker date="1556686964171" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556686964171" expanded="true" signature="157:275" ph="{...}" />
-            <marker date="1556686964171" expanded="true" signature="183:273" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LoadLastScene.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+        <state relative-caret-position="135">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <marker date="1556687403225" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556687403225" expanded="true" signature="157:279" ph="{...}" />
-            <marker date="1556687403225" expanded="true" signature="187:277" ph="{...}" />
+            <marker date="1556687515252" expanded="false" signature="6:113" ph="..." />
+            <marker date="1556687515252" expanded="true" signature="157:277" ph="{...}" />
+            <marker date="1556687515252" expanded="true" signature="185:275" ph="{...}" />
           </folding>
         </state>
       </provider>
