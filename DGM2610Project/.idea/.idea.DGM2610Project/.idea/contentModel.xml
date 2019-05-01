@@ -158,6 +158,9 @@
         <e p="IceSpeed.cs" t="Include" />
         <e p="KeyGrab.cs" t="Include" />
         <e p="LightningPickUp.cs" t="Include" />
+        <e p="LoadBackScene.cs" t="Include" />
+        <e p="LoadLastScene.cs" t="Include" />
+        <e p="LoadScene.cs" t="Include" />
         <e p="MakeActiveTimer.cs" t="Include" />
         <e p="MakeInactiveTimer.cs" t="Include" />
         <e p="MoveBase.cs" t="Include" />

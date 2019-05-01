@@ -14,8 +14,8 @@
       <file leaf-file-name="HazardDeath.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/HazardDeath.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="180">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -47,36 +47,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IceSpeed.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IceSpeed.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/IceSpeed.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MakeInactiveTimer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadScene.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/LoadScene.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
               <folding>
-                <marker date="1556683648956" expanded="false" signature="6:104" ph="..." />
-                <marker date="1556683648956" expanded="true" signature="143:527" ph="{...}" />
-                <marker date="1556683648956" expanded="true" signature="230:313" ph="{...}" />
-                <marker date="1556683648956" expanded="true" signature="371:519" ph="{...}" />
-                <marker date="1556683648956" expanded="true" signature="425:495" ph="{...}" />
+                <marker date="1556686622411" expanded="false" signature="6:113" ph="..." />
+                <marker date="1556686622411" expanded="true" signature="153:275" ph="{...}" />
+                <marker date="1556686622411" expanded="true" signature="183:273" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnemyFollow.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/EnemyFollow.cs">
+      <file leaf-file-name="LoadBackScene.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/LoadBackScene.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="79" />
+            <state relative-caret-position="105">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <marker date="1556686964171" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556686964171" expanded="true" signature="157:275" ph="{...}" />
+                <marker date="1556686964171" expanded="true" signature="183:273" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hazard.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Hazard.cs">
+      <file leaf-file-name="LoadLastScene.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/LoadLastScene.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="105">
+              <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+              <folding>
+                <marker date="1556687403225" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556687403225" expanded="true" signature="157:279" ph="{...}" />
+                <marker date="1556687403225" expanded="true" signature="187:277" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,24 +112,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="21" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HazInstant.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/HazInstant.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerAnimationHandler.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/NewMeshes/Player/PlayerAnimationHandler.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -120,9 +128,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DrowingCountDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MoveBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoadBackScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DeathVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MakeActiveTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SplashTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoadLastScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Distance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ReverseTrapdoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Icebox.cs" root0="FORCE_HIGHLIGHTING" />
@@ -152,6 +162,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/BrickSound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NewMeshes/EnemyMesh/EnemyAnimationHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoadScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/KeyGrab.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BackToWalk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MovePatternChange.cs" root0="FORCE_HIGHLIGHTING" />
@@ -160,9 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/StopRunning.cs" />
-        <option value="$PROJECT_DIR$/Assets/FloatChange.cs" />
-        <option value="$PROJECT_DIR$/Assets/Trapdoor.cs" />
         <option value="$PROJECT_DIR$/Assets/TrickStairs.cs" />
         <option value="$PROJECT_DIR$/Assets/CountDownDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/CountDown.cs" />
@@ -184,7 +192,6 @@
         <option value="$PROJECT_DIR$/Assets/TransferTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Lighting trigger.cs" />
         <option value="$PROJECT_DIR$/Assets/DrowingCountDown.cs" />
-        <option value="$PROJECT_DIR$/Assets/MakeInactiveTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/LightningTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/LightningPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyStayAway.cs" />
@@ -211,6 +218,10 @@
         <option value="$PROJECT_DIR$/Assets/ShotPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/BrickSound.cs" />
         <option value="$PROJECT_DIR$/Assets/IceSpeed.cs" />
+        <option value="$PROJECT_DIR$/Assets/MakeInactiveTimer.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoadScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoadBackScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoadLastScene.cs" />
       </list>
     </option>
   </component>
@@ -326,12 +337,12 @@
       <workItem from="1556557583418" duration="3338000" />
       <workItem from="1556561919215" duration="2300000" />
       <workItem from="1556632853412" duration="1590000" />
-      <workItem from="1556672984436" duration="3500000" />
+      <workItem from="1556672984436" duration="5342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131791000" />
+    <option name="totallyTimeSpent" value="133633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,21 +391,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/BackToWalk.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Run.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/MovePatternChange.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MovePatternChange.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -514,13 +510,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/FireList.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/FlockFollow.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/SplashTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -553,13 +542,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/BirdSound.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/HazardDeath.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/HazInstant.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -614,12 +596,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MakeInactiveTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HazardDeath.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LoadScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <marker date="1556683648956" expanded="false" signature="6:104" ph="..." />
-            <marker date="1556683648956" expanded="true" signature="143:527" ph="{...}" />
-            <marker date="1556683648956" expanded="true" signature="230:313" ph="{...}" />
-            <marker date="1556683648956" expanded="true" signature="371:519" ph="{...}" />
-            <marker date="1556683648956" expanded="true" signature="425:495" ph="{...}" />
+            <marker date="1556686622411" expanded="false" signature="6:113" ph="..." />
+            <marker date="1556686622411" expanded="true" signature="153:275" ph="{...}" />
+            <marker date="1556686622411" expanded="true" signature="183:273" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LoadBackScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <marker date="1556686964171" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556686964171" expanded="true" signature="157:275" ph="{...}" />
+            <marker date="1556686964171" expanded="true" signature="183:273" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LoadLastScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+          <folding>
+            <marker date="1556687403225" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556687403225" expanded="true" signature="157:279" ph="{...}" />
+            <marker date="1556687403225" expanded="true" signature="187:277" ph="{...}" />
           </folding>
         </state>
       </provider>
