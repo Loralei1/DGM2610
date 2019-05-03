@@ -135,38 +135,6 @@
             </e>
           </e>
         </e>
-        <e p="HealthBar.cs" t="Include" />
-        <e p="Icebox.cs" t="Include" />
-        <e p="IceSpeed.cs" t="Include" />
-        <e p="KeyGrab.cs" t="Include" />
-        <e p="LightningPickUp.cs" t="Include" />
-        <e p="LoadBackScene.cs" t="Include" />
-        <e p="LoadLastScene.cs" t="Include" />
-        <e p="LoadScene.cs" t="Include" />
-        <e p="MakeActiveTimer.cs" t="Include" />
-        <e p="MakeInactiveTimer.cs" t="Include" />
-        <e p="MoveBase.cs" t="Include" />
-        <e p="MovePattern.cs" t="Include" />
-        <e p="MovePatternChange.cs" t="Include" />
-        <e p="MovePatternNotGrounded.cs" t="Include" />
-        <e p="NewMeshes" t="Include">
-          <e p="Dockbits" t="Include">
-            <e p="PLayTriggerAnim.cs" t="Include" />
-          </e>
-          <e p="EnemyMesh" t="Include">
-            <e p="EnemyAnimationHandler.cs" t="Include" />
-          </e>
-          <e p="LightBubble" t="Include">
-            <e p="DestroyOnTrigger.cs" t="Include" />
-          </e>
-          <e p="Player" t="Include">
-            <e p="PlayerAnimationHandler.cs" t="Include" />
-          </e>
-        </e>
-        <e p="OnTriggerEnterEvent.cs" t="Include" />
-        <e p="OnTriggerEvent.cs" t="Include" />
-        <e p="OnTriggerExitEvent.cs" t="Include" />
-        <e p="PrefabHealthBar.cs" t="Include" />
         <e p="ProCore" t="Include">
           <e p="ProBuilder" t="Include">
             <e p="About" t="Include">
@@ -291,8 +259,6 @@
             </e>
           </e>
         </e>
-        <e p="ReverseTrapdoor.cs" t="Include" />
-        <e p="RunSound.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BackToWalk.cs" t="Include" />
           <e p="BirdSound.cs" t="Include" />
@@ -301,9 +267,11 @@
           <e p="BrickSound.cs" t="Include" />
           <e p="DeathEvent.cs" t="Include" />
           <e p="DeathVolume.cs" t="Include" />
+          <e p="DestroyOnTrigger.cs" t="Include" />
           <e p="Distance.cs" t="Include" />
           <e p="DoubleJumpChange.cs" t="Include" />
           <e p="DrowingCountDown.cs" t="Include" />
+          <e p="EnemyAnimationHandler.cs" t="Include" />
           <e p="EnemyFollow.cs" t="Include" />
           <e p="FloatChange.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
@@ -312,16 +280,39 @@
           <e p="HazardDeath.cs" t="Include" />
           <e p="HazardEvent.cs" t="Include" />
           <e p="HazInstant.cs" t="Include" />
+          <e p="HealthBar.cs" t="Include" />
+          <e p="Icebox.cs" t="Include" />
+          <e p="IceSpeed.cs" t="Include" />
+          <e p="KeyGrab.cs" t="Include" />
+          <e p="LightningPickUp.cs" t="Include" />
+          <e p="LoadBackScene.cs" t="Include" />
+          <e p="LoadLastScene.cs" t="Include" />
+          <e p="LoadScene.cs" t="Include" />
+          <e p="MakeActiveTimer.cs" t="Include" />
+          <e p="MakeInactiveTimer.cs" t="Include" />
+          <e p="MoveBase.cs" t="Include" />
+          <e p="MovePattern.cs" t="Include" />
+          <e p="MovePatternChange.cs" t="Include" />
+          <e p="MovePatternNotGrounded.cs" t="Include" />
+          <e p="OnTriggerEnterEvent.cs" t="Include" />
+          <e p="OnTriggerEvent.cs" t="Include" />
+          <e p="OnTriggerExitEvent.cs" t="Include" />
+          <e p="PlayerAnimationHandler.cs" t="Include" />
+          <e p="PLayTriggerAnim.cs" t="Include" />
+          <e p="PrefabHealthBar.cs" t="Include" />
+          <e p="ReverseTrapdoor.cs" t="Include" />
+          <e p="RunSound.cs" t="Include" />
+          <e p="SetSpeed.cs" t="Include" />
+          <e p="Shoot.cs" t="Include" />
+          <e p="ShotMove.cs" t="Include" />
+          <e p="ShotPickUp.cs" t="Include" />
+          <e p="SplashTrigger.cs" t="Include" />
+          <e p="TransferTrigger.cs" t="Include" />
+          <e p="Trapdoor.cs" t="Include" />
+          <e p="TrickStairs.cs" t="Include" />
+          <e p="UpdatePattern.cs" t="Include" />
+          <e p="ZPos.cs" t="Include" />
         </e>
-        <e p="SetSpeed.cs" t="Include" />
-        <e p="Shoot.cs" t="Include" />
-        <e p="ShotMove.cs" t="Include" />
-        <e p="ShotPickUp.cs" t="Include" />
-        <e p="SplashTrigger.cs" t="Include" />
-        <e p="TransferTrigger.cs" t="Include" />
-        <e p="Trapdoor.cs" t="Include" />
-        <e p="TrickStairs.cs" t="Include" />
-        <e p="UpdatePattern.cs" t="Include" />
       </e>
       <e p="DGM2610Project.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
