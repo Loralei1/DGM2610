@@ -298,6 +298,7 @@
           <e p="PlayerAnimationHandler.cs" t="Include" />
           <e p="PLayTriggerAnim.cs" t="Include" />
           <e p="PrefabHealthBar.cs" t="Include" />
+          <e p="QuitApp.cs" t="Include" />
           <e p="ReverseTrapdoor.cs" t="Include" />
           <e p="RunSound.cs" t="Include" />
           <e p="SetSpeed.cs" t="Include" />
