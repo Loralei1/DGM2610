@@ -6,11 +6,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="BackToWalk.cs" t="Include" />
-        <e p="BirdSound.cs" t="Include" />
-        <e p="BlipFollow.cs" t="Include" />
-        <e p="BreakApart.cs" t="Include" />
-        <e p="BrickSound.cs" t="Include" />
         <e p="Cinemachine" t="Include">
           <e p="Base" t="Include">
             <e p="Editor" t="Include">
@@ -140,19 +135,6 @@
             </e>
           </e>
         </e>
-        <e p="DeathEvent.cs" t="Include" />
-        <e p="DeathVolume.cs" t="Include" />
-        <e p="Distance.cs" t="Include" />
-        <e p="DoubleJumpChange.cs" t="Include" />
-        <e p="DrowingCountDown.cs" t="Include" />
-        <e p="EnemyFollow.cs" t="Include" />
-        <e p="FloatChange.cs" t="Include" />
-        <e p="FloatData.cs" t="Include" />
-        <e p="FloatInput.cs" t="Include" />
-        <e p="Hazard.cs" t="Include" />
-        <e p="HazardDeath.cs" t="Include" />
-        <e p="HazardEvent.cs" t="Include" />
-        <e p="HazInstant.cs" t="Include" />
         <e p="HealthBar.cs" t="Include" />
         <e p="Icebox.cs" t="Include" />
         <e p="IceSpeed.cs" t="Include" />
@@ -311,6 +293,26 @@
         </e>
         <e p="ReverseTrapdoor.cs" t="Include" />
         <e p="RunSound.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="BackToWalk.cs" t="Include" />
+          <e p="BirdSound.cs" t="Include" />
+          <e p="BlipFollow.cs" t="Include" />
+          <e p="BreakApart.cs" t="Include" />
+          <e p="BrickSound.cs" t="Include" />
+          <e p="DeathEvent.cs" t="Include" />
+          <e p="DeathVolume.cs" t="Include" />
+          <e p="Distance.cs" t="Include" />
+          <e p="DoubleJumpChange.cs" t="Include" />
+          <e p="DrowingCountDown.cs" t="Include" />
+          <e p="EnemyFollow.cs" t="Include" />
+          <e p="FloatChange.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
+          <e p="FloatInput.cs" t="Include" />
+          <e p="Hazard.cs" t="Include" />
+          <e p="HazardDeath.cs" t="Include" />
+          <e p="HazardEvent.cs" t="Include" />
+          <e p="HazInstant.cs" t="Include" />
+        </e>
         <e p="SetSpeed.cs" t="Include" />
         <e p="Shoot.cs" t="Include" />
         <e p="ShotMove.cs" t="Include" />
