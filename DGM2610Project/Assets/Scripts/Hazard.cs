@@ -8,10 +8,7 @@ public class Hazard : MonoBehaviour
 {
     public FloatData playerHealth;
 
-    private void Start()
-    {
-        playerHealth.value = 100;
-    }
+    
 
     public enum hazards
 
@@ -45,7 +42,7 @@ public class Hazard : MonoBehaviour
     }
 
 
-    void OnTriggerEnter(Collider other)
+   private void OnTriggerEnter(Collider other)
 
 
 
@@ -79,6 +76,7 @@ public class Hazard : MonoBehaviour
                 case (hazards.owl):
 
                     playerHealth.value = playerHealth.value - 12;
+                    Debug.Log("Owl");
 
                     break;
 
@@ -111,7 +109,7 @@ public class Hazard : MonoBehaviour
             {
                     case (hazards.extrahealthPotion):
 
-                        playerHealth.value = playerHealth.value + 10;
+                        playerHealth.value = playerHealth.value + 20;
                         break; 
             }
         }        

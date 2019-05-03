@@ -11,12 +11,12 @@ public class PrefabHealthBar : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Brick"))
         {
-            healthbar.fillAmount = healthbar.fillAmount - 0.1f;
+            healthbar.fillAmount = healthbar.fillAmount - 0.20f;
         }
 
         if (other.gameObject.CompareTag("Owl"))
         {
-            healthbar.fillAmount = healthbar.fillAmount - 0.12f;
+            healthbar.fillAmount = healthbar.fillAmount - 0.24f;
         }
     }
 }

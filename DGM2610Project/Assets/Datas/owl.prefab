@@ -11,12 +11,6 @@ GameObject:
   - component: {fileID: 536745897}
   - component: {fileID: 536745899}
   - component: {fileID: 536745898}
-  - component: {fileID: 536745900}
-  - component: {fileID: 536745904}
-  - component: {fileID: 536745905}
-  - component: {fileID: 536745901}
-  - component: {fileID: 536745902}
-  - component: {fileID: 536745903}
   m_Layer: 0
   m_Name: pCube2
   m_TagString: Untagged
@@ -83,90 +77,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!54 &536745900
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536745896}
-  serializedVersion: 2
-  m_Mass: 2
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &536745904
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536745896}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.8245564, y: 2.3367271, z: 8.294567}
-  m_Center: {x: 0.37709904, y: 7.0309935, z: 29.375689}
---- !u!65 &536745905
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536745896}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.761774, y: 3.5675197, z: 10.867672}
-  m_Center: {x: 0.43489295, y: 7.1122065, z: 29.32969}
---- !u!114 &536745901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536745896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b4285877ca3e59448c36819748f55d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 13
---- !u!114 &536745902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536745896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec85863b3aca968488d87e415d864a22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthbar: {fileID: 2683983131560082550, guid: 425acda2dd513b84bb91bae2e512c80f,
-    type: 3}
-  hazardname: 3
---- !u!114 &536745903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536745896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bb67eae1a05e5d4b95fbd1e4def1a21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: {fileID: 11400000, guid: f91e9268a8742134aa4fcb5a33957d65, type: 2}
-  hazardname: 3
 --- !u!1 &843977144
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,7 +88,7 @@ GameObject:
   - component: {fileID: 843977145}
   m_Layer: 0
   m_Name: owl
-  m_TagString: Hazard
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

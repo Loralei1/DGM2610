@@ -279,6 +279,7 @@
           <e p="HazardEvent.cs" t="Include" />
           <e p="HazInstant.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
+          <e p="HealthStart.cs" t="Include" />
           <e p="Icebox.cs" t="Include" />
           <e p="IceSpeed.cs" t="Include" />
           <e p="KeyGrab.cs" t="Include" />

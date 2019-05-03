@@ -273,9 +273,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7832275089812117971}
-  - component: {fileID: 3607565538762431398}
-  - component: {fileID: 3962764524198234771}
-  - component: {fileID: 8714718583877940139}
   m_Layer: 0
   m_Name: FallingBlockParent
   m_TagString: Hazard
@@ -298,48 +295,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3607565538762431398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4282350486595542253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bb67eae1a05e5d4b95fbd1e4def1a21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: {fileID: 11400000, guid: f91e9268a8742134aa4fcb5a33957d65, type: 2}
-  hazardname: 0
---- !u!114 &3962764524198234771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4282350486595542253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec85863b3aca968488d87e415d864a22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthbar: {fileID: 2683983131560082550, guid: 425acda2dd513b84bb91bae2e512c80f,
-    type: 3}
-  hazardname: 0
---- !u!65 &8714718583877940139
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4282350486595542253}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5.2725325, y: 3.9796982, z: 5.276305}
-  m_Center: {x: 0.031255245, y: -0.09539318, z: 0.25698996}
 --- !u!1001 &997709992455261745
 PrefabInstance:
   m_ObjectHideFlags: 0
