@@ -50,7 +50,7 @@ public class HealthBar : MonoBehaviour
 
     {
 
-        if (other.gameObject.CompareTag("Player") && healthbar.fillAmount >= 0)
+        if (other.gameObject.CompareTag("HazTrig") && healthbar.fillAmount >= 0)
 
         {
 
@@ -62,13 +62,14 @@ public class HealthBar : MonoBehaviour
 
             {
 
-                case (hazards.fallingBlock):
+                /*case (hazards.fallingBlock):
 
                     healthbar.fillAmount = healthbar.fillAmount - 0.1f;
 
 
 
                     break;
+                    */
 
 
 
@@ -79,17 +80,7 @@ public class HealthBar : MonoBehaviour
 
 
                     break;
-
-
-
-                case (hazards.owl):
-
-                    healthbar.fillAmount = healthbar.fillAmount - 0.12f;
-
-                    break;
-
-
-
+                
                 case (hazards.nettle):
 
                     healthbar.fillAmount = healthbar.fillAmount - 0.15f;
@@ -97,21 +88,50 @@ public class HealthBar : MonoBehaviour
 
                     break;
                 
-                case (hazards.healthPotion):
-
-                    healthbar.fillAmount = healthbar.fillAmount + 0.05f;
-                    break; 
-                
                 case (hazards.extrahealthPotion):
 
-                    healthbar.fillAmount = healthbar.fillAmount + 0.1f;
+                    healthbar.fillAmount = healthbar.fillAmount + 0.2f;
                     break; 
+
+                
+                
+
+
+
+                /*case (hazards.owl):
+
+                    healthbar.fillAmount = healthbar.fillAmount - 0.12f;
+
+                    break;
+                    */
+
+
+
+               
+                 
 
 
 
 
 
             }
+
+            
+
+            /*if (other.CompareTag("Player"))
+            {
+                switch (hazardname)
+                {
+                    case (hazards.extrahealthPotion):
+
+                        healthbar.fillAmount = healthbar.fillAmount + 0.2f;
+                        break; 
+                    
+                    
+                    
+                    
+                }
+            }  */      
 
         }
 

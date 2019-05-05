@@ -48,7 +48,7 @@ public class Hazard : MonoBehaviour
 
     {
 
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("HazTrig"))
 
         {
 
@@ -79,26 +79,36 @@ public class Hazard : MonoBehaviour
                     Debug.Log("Owl");
 
                     break;
-
-
-
+                
                 case (hazards.nettle):
 
                     playerHealth.value = playerHealth.value - 15;
+                    Debug.Log("Thorn");
 
 
                     break;
                 
-                case (hazards.healthPotion):
-
-                    playerHealth.value = playerHealth.value + 5;
-                    break; 
-                 
+                
 
 
 
 
 
+            }
+            
+            if (other.gameObject.CompareTag("Player"))
+            {
+
+                switch (hazardname)
+                {
+                    
+                    case (hazards.healthPotion):
+
+                        playerHealth.value = playerHealth.value + 5;
+                        break; 
+
+                }
+                        
             }
 
         }
